@@ -1,0 +1,99 @@
+html {
+  height: 100%; }
+
+body {
+  position: relative;
+  min-height: 100%;
+  min-width: 30%;
+  padding-bottom: 50px;
+  font-family: "Artifika", serif;
+  font-size: 12px; }
+
+div {
+  margin-bottom: 10px; }
+
+.nav {
+  text-align: center; }
+
+.navitem {
+  display: inline-block;
+  padding: 0.5em; }
+
+.navitem i {
+  padding-right: 0.5em;
+  vertical-align: bottom;
+  color: white; }
+
+.navitem a {
+  color: white;
+  text-decoration: none; }
+
+.navitem a:hover {
+  border-bottom: 2.5px ridge #ffb900;
+  text-shadow: 1px 1px 7px #141313; }
+
+.page-header {
+  margin: 20px 0 10px; }
+  .page-header h1 {
+    font-size: 20px;
+    text-align: center; }
+
+.lang {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+  overflow: auto; }
+  .lang h2 {
+    font-size: 18px;
+    text-align: center; }
+  .lang div {
+    display: flex;
+    padding: 2%;
+    width: 90%;
+    margin: 0 auto;
+    /*overflow: auto;*/ }
+  .lang .btn-lang {
+    flex: 1; }
+  .lang .ms-Button-label {
+    font-family: "Artifika", serif; }
+
+.jum_en, .jum_ro {
+  text-align: center; }
+
+.content div.ms-Dropdown {
+  font-family: "Artifika", serif; }
+
+.buttons section p {
+  margin-bottom: 0.5em; }
+
+button.ms-Button-small {
+  color: #00188f;
+  font-family: "Artifika", serif;
+  font-size: 12px;
+  background-color: ghostwhite;
+  border: 1px solid  #c7e0f4; }
+  button.ms-Button-small:hover {
+    background-color: #deecf9; }
+  button.ms-Button-small:focus {
+    border: 1px solid #002050;
+    background-color: #deecf9; }
+
+.EN, .RO {
+  display: none; }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /*margin-top: 2em;*/
+  color: white; }
+  .footer ul {
+    list-style-type: none;
+    padding: 0.5em;
+    text-align: center;
+    margin-bottom: 0; }
+  .footer li {
+    font-size: 0.9em;
+    display: inline-block;
+    padding-right: 0.5em; }

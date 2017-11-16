@@ -1,0 +1,22 @@
+{
+  "name": "easypanel",
+  "version": "1.0.0",
+  "description": "EasyPanel using Fabric framework",
+  "main": "acasa_test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "easyclause",
+    "word",
+    "task-pane",
+    "fabric"
+  ],
+  "author": "Lucian Tanase",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

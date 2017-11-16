@@ -1,0 +1,145 @@
+
+
+$shadow_color: #141313;
+$margin_bottom: 10px;
+$font: 'Artifika', serif;
+$button_bg_color: ghostwhite;
+$font-size: 12px;
+
+html {
+	height: 100%;
+}
+
+body {
+	position: relative;
+	min-height: 100%;
+	min-width: 30%;
+	padding-bottom: 50px;
+	font-family: $font;
+	font-size: $font-size;
+}
+div {
+	margin-bottom: 10px;
+}
+.nav {
+	text-align: center;
+}
+.navitem {
+	display: inline-block;
+	padding: 0.5em;
+}
+
+.navitem {
+
+	i {
+		padding-right: 0.5em;
+		vertical-align: bottom;
+		color: white;
+
+	}
+
+	a {
+		color: white;
+		text-decoration: none;
+	}
+
+	a:hover {
+		border-bottom: 2.5px ridge #ffb900;
+		text-shadow: 1px 1px 7px $shadow_color;
+	}
+}
+
+.page-header  {
+	margin: 20px 0 10px;
+
+	h1 {
+		font-size: 20px;
+		text-align: center;
+	}
+}
+
+.lang {
+	width: 50%;
+	margin: 0 auto;
+	display: block;
+	overflow: auto;
+
+	h2 {
+    	font-size: 18px;
+    	text-align: center;
+	}
+	div {
+		display: flex;
+		padding: 2%;
+		width: 90%;
+		margin: 0 auto;
+		/*overflow: auto;*/
+	}
+	.btn-lang {
+		flex: 1;
+	}
+	.ms-Button-label {
+		font-family: $font;
+	}
+}
+
+.jum_en, .jum_ro {
+	text-align: center;
+}
+
+
+.content div.ms-Dropdown {
+	font-family: $font;
+}
+
+.buttons section p {
+	margin-bottom: 0.5em;
+}
+
+button.ms-Button-small {
+	color: #00188f;
+	font-family: $font;
+	font-size: $font-size;
+	background-color: $button_bg_color;
+	border: 1px solid  #c7e0f4;
+
+	&:hover {
+		background-color: #deecf9;
+	}
+
+	&:focus {
+		border: 1px solid #002050;
+		background-color: #deecf9;
+	}
+}
+	
+.EN, .RO {
+  display: none; 
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	/*margin-top: 2em;*/
+	color: white;
+
+	ul {
+		list-style-type: none;
+		padding: 0.5em;
+		text-align: center;
+		margin-bottom: 0;
+	}
+
+	li {
+		font-size: 0.9em;
+		display: inline-block;
+		padding-right: 0.5em;
+	}
+}
+
+
+
+
+

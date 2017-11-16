@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Clauses Inventory</title>
+        <link rel="stylesheet" href="bower_components/office-ui-fabric-js/dist/css/fabric.min.css" />
+        <link rel="stylesheet" href="bower_components/office-ui-fabric-js/dist/css/fabric.components.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="css/base.css" />
+        <link href="https://fonts.googleapis.com/css?family=Artifika" rel="stylesheet" />
+        <script src="bower_components/office-ui-fabric-js/dist/js/fabric.min.js"></script>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <!-- <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js" type="text/javascript"></script> -->
+        <script src="js/test.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="header ms-bgColor-themePrimary">
+            <div class="navbar">
+                <ul class="nav">
+                    <li class="navitem"><i class="ms-Icon ms-Icon--Website" aria-hidden="true"></i><a class="navlink" href="https://www.easyconsult.ro">EasyConsult</a></li>
+                    <li class="navitem"><i class="ms-Icon ms-Icon--Mail" aria-hidden="true"></i><a class="navlink" href="contact.html">Contact</a></li>
+                    <li class="navitem"><i class="ms-Icon ms-Icon--Repair" aria-hidden="true"></i><a class="navlink" href="mailto: office@easyconsult.ro">Support</a></li>
+                 </ul>
+            </div>
+        </div>
+        <div class="main">
+                <div class="intro_en">
+                    <div class="page-header">
+                        <h1 class="">Welcome to our Clauses Panel</h1>
+                    </div>
+                    <div class="lang">
+                        <h2>Choose your language:</h2>
+                        <div>
+                            <button type="button" class="btn-lang ms-Button ms-Button--primary"><span class="ms-Button-label">English</span></button>
+                            <button  type="button" class="btn-lang ms-Button ms-Button--primary"><span class="ms-Button-label">Romanian</span></button>
+                        </div>
+                    </div>
+                    <div class="jum_en">
+                            <p class="intro">This inventory helps the user to insert predefined clauses in their Words documents by a click of a button.</p>
+                            <p class="intro"> For details about how it works click <a class="ms-Button ms-Button-small" role="button" href="installing.html">here.</a></p>
+                     </div>
+                </div>
+                <div class="intro_ro">
+                    <div class="page-header">
+                        <h1 class="">Bine ați venit la Panoul de Clauze</h1>
+                    </div>
+                    <div class="lang ">
+                        <h2>Alegeți limba:</h2>
+                        <div>
+                            <button type="button" class="btn-lang ms-Button ms-Button--primary"><span class="ms-Button-label">Engleză</span></button>
+                            <button  type="button" class="btn-lang ms-Button ms-Button--primary"><span class="ms-Button-label">Română</span></button>
+                        </div>
+                    </div>
+                    <div class="jum_ro">
+                            <p class="intro">Acest panou ajută utilizatorii să insereze clauze predefinite în documentele lor Word printr-un simplu click.</p>
+                            <p class="intro"> Pentru detalii suplimentare despre cum functioneaza apasati <a class="ms-Button ms-Button-small" role="button" href="installing.html">aici.</a></p>
+                     </div>
+                 </div>
+
+                <div class="content">
+                    
+                    <div class="EN">
+                        
+                        <div class="options ms-Dropdown" tabindex="0">
+                            <i class="ms-Dropdown-caretDown ms-Icon ms-Icon--ChevronDown"></i>
+                            <select name="clauses_en" id="choose_en" class="ms-Dropdown-select">
+                                
+                                <option value="">Choose Your Clause</option>
+                                <option value="arbitration">Arbitration</option>
+                                <option value="court">Court Jurisdiction</option>
+                                <option value="miscellanous">Miscellanous</option>
+                                <option value="representations">Representations</option>
+                            </select>
+                        </div>
+                
+                        <div class="buttons">
+                        <!-- Arbitration clauses -->
+                            <section class="ms-Grid" data-clause-type="arbitration">
+                                <!-- <h4>Arbitration</h4> -->
+                                <p>Use one of these arbitration clauses:</p>
+                                <div class="ms-Grid-row">
+                                    <button class="ms-Grid-col ms-Button ms-Button-small" id="icc_standard_en">ICC (standard)</button>
+                                    <button class="ms-Grid-col ms-Button ms-Button-small" id="icc_one_en">ICC (one arbitrator)</button>
+                                    <button class="ms-Grid-col ms-Button ms-Button-small" id="icc_three_en">ICC (three arbitrators)</button>
+                                </div>
+                            </section>
+                        <!-- Court jurisdiction clauses -->
+                            <section class="ms-Grid" data-clause-type="court">
+                                <!-- <h4>Court jurisdiction</h4> -->
+                                <p>Use one of these court juridsiction clauses:</p>
+                                <div class="ms-Grid-row">
+                                    <button class="ms-Grid-col ms-Button ms-Button-small" id="exclusive_en">Exclusive Juridsiction</button>
+                                    <button class="ms-Grid-col ms-Button ms-Button-small" id="nonexclusive_en">Non-Exclusive Jurisdiction</button>
+                                </div>
+                           </section>                                        
+                        <!-- Miscellanous clauses --> 
+                            <section class="ms-Grid" data-clause-type="miscellanous">
+                                <!-- <h4>Miscellanous</h4> -->
+                                <p>Use different type of miscellanous clauses:</p>
+                                <div class="ms-Grid-row">
+                                    <button class="ms-Grid-col ms-Button ms-Button-small" id="severability_en">Severability</button>
+                                    <button class="ms-Grid-col ms-Button ms-Button-small" id="noagency_en">No Agency</button>
+                                    <button class="ms-Grid-col ms-Button ms-Button-small" id="waiver_en">Waiver</button>
+                                    <button class="ms-Grid-col ms-Button ms-Button-small" id="thirdparty_en">Third Parties</button>
+                                    <button class="ms-Grid-col ms-Button ms-Button-small" id="disclosure_en">Public Disclosure</button>
+                                    <button class="ms-Grid-col ms-Button ms-Button-small" id="govlaw_en">Governing Law</button>
+                                </div>
+                            </section>
+                        <!-- Representations clauses -->
+                            <section class="ms-Grid" data-clause-type="representations">
+                                <!-- <h4>Representation</h4> -->
+                                <p>Use one of these representation clauses:</p>
+                                <div class="ms-Grid-row">
+                                    <button class="ms-Grid-col ms-Button ms-Button-small" id="corporatereps_en">Corporate Reps</button>
+                                </div>
+                            </section>
+                         </div>
+                    </div>
+
+                    <div class="RO">
+                        
+                        <div class="options_ro ms-Dropdown">
+                            <i class="ms-Dropdown-caretDown ms-Icon ms-Icon--ChevronDown"></i>
+                            <select name="clauses_ro" id="choose_ro" class="ms-Dropdown-select">
+                                <option value="">Alegeti Clauza</option>
+                                <option value="arbitration">Arbitraj</option>
+                                <option value="court">Alegerea instantei</option>
+                                <option value="miscellanous">Diverse</option>
+                                <option value="representations"/>Declaratii</label>
+                            </select>
+                        </div>
+                        <div class="buttons">
+
+                        <!-- #### Clauze arbitrale #### -->
+                            <section class="ms-Grid" data-clause-type="arbitration">
+                                <!-- <h4>Clauze arbitrale</h4> -->
+                                <p>Folositi una dintre urmatoarele clauze de arbitraj:</p>
+                                <div class="ms-Grid-row">
+                                    <button class="ms-Grid-col ms-Button ms-Button-small" id="icc_standard_ro">ICC (standard)</button>
+                                    <button class="ms-Grid-col ms-Button ms-Button-small" id="icc_unu_ro">ICC (un arbitru)</button>
+                                    <button class="ms-Grid-col ms-Button ms-Button-small" id="icc_trei_ro">ICC (trei arbitrii)</button>
+                                </div>
+                            </section>
+
+                        <!-- #### Clauze de jurisdictie ### -->
+                            <section class="ms-Grid" data-clause-type="court">
+                                <p>Folositi una dintre urmatoarele clauze privind alegere jurisdictiei:</p>
+                                <div class="ms-Grid-row">
+                                    <button class="ms-Grid-col ms-Button ms-Button-small" id="exclusive_ro">Jurisdictie Exclusiva</button>
+                                    <button class="ms-Grid-col ms-Button ms-Button-small" id="nonexclusive_ro">Jurisdictie Neexclusiva</button>
+                                </div>
+                            </section>
+                        
+                        <!-- #### Clauze diverse ### -->
+                            <section class="ms-Grid" data-clause-type="miscellanous">
+                                <p>Folositi diferite tipuri de clauze generale:</p>
+                                <div class="ms-Grid-row">
+                                    <button class="ms-Grid-col ms-Button ms-Button-small" id="severability_ro">Nulitate Partiala</button>
+                                    <button class="ms-Grid-col ms-Button ms-Button-small" id="noagency_ro">Reprezentare</button>
+                                    <button class="ms-Grid-col ms-Button ms-Button-small" id="waiver_ro">Renuntari</button>
+                                    <button class="ms-Grid-col ms-Button ms-Button-small" id="thirdparty_ro">Drepturile Tertilor</button>
+                                    <button class="ms-Grid-col ms-Button ms-Button-small" id="disclosure_ro">Publicitate</button>
+                                    <button class="ms-Grid-col ms-Button ms-Button-small" id="govlaw_ro">Legea Aplicabila</button>
+                                </div>
+                            </section>
+                        <!-- ### Clauze privind declaratii contractuale generale ### -->
+                            <section class="ms-Grid" data-clause-type="representations">
+                                <p>Alegeti dintre diferite tipuri de declaratii:</p>
+                                <div class="ms-Grid-row">
+                                    <button class="ms-Grid-col ms-Button ms-Button-small" id="corporatereps_ro">Declaratii Corporative</button>
+                                </div>
+                            </section>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="supportedVersion"/></div>
+
+            <div class="footer ms-bgColor-themePrimary">
+                <ul>
+                    <li class="first">&copy; 2017. Easy Consult </li>
+                    <li class="second"> || </li>
+                    <li class="third"> Developed by: Lucian Tanase</li>
+                </ul>
+            </div>
+
+           
+
+        <script type="text/javascript">
+            var CommandButtonElements = document.querySelectorAll(".ms-CommandButton");
+            for (var i = 0; i < CommandButtonElements.length; i++) {
+                new fabric['CommandButton'](CommandButtonElements[i]);
+            }
+
+            var DropdownHTMLElements = document.querySelectorAll('.ms-Dropdown');
+            for (var i = 0; i < DropdownHTMLElements.length; ++i) {
+            var Dropdown = new fabric['Dropdown'](DropdownHTMLElements[i]);
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "bower.json",
+  "authors": [
+    "Lucian Tanase <ltanase77@gmail.com>"
+  ],
+  "description": "Word Api using fabric UI",
+  "main": "Fabric Version",
+  "keywords": [
+    "hello"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "office-ui-fabric-js": "^1.4.0",
+    "jquery": "^3.2.1",
+    "underscore": "^1.8.3"
+  }
+}

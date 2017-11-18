@@ -53,12 +53,26 @@ div {
     margin: 0 auto;
     /*overflow: auto;*/ }
   .lang .btn-lang {
-    flex: 1; }
+    flex: 1;
+    box-shadow: inset rgba(255, 254, 255, 0.6) 0 0.3em 0.3em, inset rgba(0, 0, 0, 0.15) 0 -0.1em 0.3em, #5390c6 0 0.1em 3px, #336999 0 0.3em 1px, rgba(0, 0, 0, 0.2) 0 0.5em 5px; }
   .lang .ms-Button-label {
     font-family: "Artifika", serif; }
 
 .jum_en, .jum_ro {
   text-align: center; }
+
+p a.ms-Button-small {
+  height: 26px;
+  min-width: 60px;
+  padding: 4px 10px 6px;
+  border-radius: 8px;
+  box-shadow: inset rgba(255, 254, 255, 0.6) 0 0.3em 0.3em, inset rgba(0, 0, 0, 0.15) 0 -0.1em 0.3em, #5390c6 0 0.1em 3px, #336999 0 0.3em 1px, rgba(0, 0, 0, 0.2) 0 0.5em 5px;
+  text-decoration: none;
+  font-family: "Artifika", serif;
+  background-color: #c7e0f4; }
+  p a.ms-Button-small:hover {
+    color: white;
+    background-color: #0078d7; }
 
 .content div.ms-Dropdown {
   font-family: "Artifika", serif; }
@@ -71,7 +85,8 @@ button.ms-Button-small {
   font-family: "Artifika", serif;
   font-size: 12px;
   background-color: ghostwhite;
-  border: 1px solid  #c7e0f4; }
+  border: 1px solid  #c7e0f4;
+  box-shadow: inset rgba(255, 254, 255, 0.6) 0 0.3em 0.3em, inset rgba(0, 0, 0, 0.15) 0 -0.1em 0.3em, #5390c6 0 0.1em 3px, #336999 0 0.3em 1px, rgba(0, 0, 0, 0.2) 0 0.5em 5px; }
   button.ms-Button-small:hover {
     background-color: #deecf9; }
   button.ms-Button-small:focus {
@@ -79,6 +94,9 @@ button.ms-Button-small {
     background-color: #deecf9; }
 
 .EN, .RO {
+  display: none; }
+
+.ms-Grid {
   display: none; }
 
 .footer {

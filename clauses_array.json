@@ -1,0 +1,62 @@
+{ 
+    "icc_standard_en" : ["All disputes arising out of or in connection with the present contract shall be finally settled under the Rules of Arbitration of the International Chamber of Commerce by one or more arbitrators appointed in accordance with the said Rules."],
+
+    "icc_one_en" : ["All disputes arising out of or in connection with the present contract shall be finally settled under the Rules of Arbitration of the International Chamber of Commerce by one arbitrator appointed in accordance with the said Rules.", 
+      "The place of arbitration will be [...] and the language of arbitration will be [...].", 
+      "The arbitral award shall be final and binding."],
+
+    "icc_three_en" : ["All disputes arising out of or in connection with the present contract shall be finally settled under the Rules of Arbitration of the International Chamber of Commerce by three arbitrators appointed in accordance with the said Rules.", 
+      "The place of arbitration will be [...] and the language of arbitration will be [...].",
+       "The arbitral award shall be final and binding."],
+
+    "exclusive_en" : ["With respect to any suit, action or proceedings relating to this agreement each party irrevocably submits to the exclusive jurisdiction of the [...] courts."],
+
+    "nonexclusive_en" : ["With respect to any suit, action or proceedings relating to this agreement each party irrevocably submits to the non-exclusive jurisdiction of the [...] courts."],
+
+    "govlaw_en" : ["This agreement shall be governed, construed and enforced in accordance with the laws of [...]."],
+
+    "severability_en" : ["Any term or provision of this Agreement that is invalid or unenforceable in any situation, shall not affect the validity or enforceability of the remaining terms and provisions hereof or the validity or enforceability of the offending term or provision in any other situation or in any other jurisdiction."],
+
+    "waiver_en" : ["Any party to this Agreement may, by written notice sent to the other party hereto, waive any of its rights under this Agreement.", 
+      "The waiver by any party hereto of a breach of any provision of this Agreement shall not operate or be construed as a waiver of any subsequent breach."],
+
+    "noagency_en" : ["Except as otherwise provided in the Agreement, nothing from this Agreement shall be considered or construed as creating an association, partnership or joint venture between the Parties or entitling one party to act as agent or proxy on behalf of the other party."],
+
+    "thirdparty_en" : ["The Parties hereby confirm that, notwithstanding any other provision of this Agreement, this Agreement shall not and shall not purport to confer on any third party any right to enforce any term of this Agreement."],
+
+    "disclosure_en" : ["Each party to this Agreement hereby agrees with the other party hereto that, except as may be required to comply with applicable laws, no press release or similar public announcement or communication will be made or caused to be made concerning the execution or performance of this Agreement unless specifically approved in advance and in writing by the parties hereto.", 
+      "The parties hereto further agree that any public announcement required by applicable Laws shall only be made after reasonable notice to the other party."],
+
+    "corporatereps_en" : ["The Party has full and absolute legal right, power, capacity and authority to execute, deliver and perform this Agreement and to perform the Party’s obligations hereunder and thereunder and to consummate the transactions contemplated hereby and thereby.", 
+      "This Agreement has been validly executed and delivered by the Party, and constitutes a valid and binding obligation of the Party enforceable against theParty in accordance with its terms.", 
+      "Each other Document to which the Party is a party, when executed and delivered in accordance with the provisions hereof or thereof, shall be a valid and binding obligation of the Party thereto enforceable against such Party in accordance with their terms."],
+
+    "icc_standard_ro" : ["Toate disputele născute în legătură cu prezentul contract vor fi în mod definitiv soluționate în conformitate cu Regulile de Arbitraj ale Camerei Internaționale de Comerț de către unul sau mai mulți arbitri numiți în baza acestor reguli."],
+
+    "icc_one_ro" : ["Toate disputele născute în legătură cu prezentul contract vor fi soluționate în conformitate cu Regulile de Arbitraj ale Camerei Internaționale de Comerț de către un singur arbitru numit în baza acestor reguli.", 
+    	"Locul arbitrajului va fi [...] și limba în care se va desfășura arbitrajul va fi [...].",
+    	"Decizia tribunalului arbitral va fi definitivă și obligatorie."],
+
+    "icc_three_ro" : ["Toate disputele născute în legătură cu prezentul contract vor fi soluționate în conformitate cu Regulile de Arbitraj ale Camerei Internaționale de Comerț de către trei arbitri numiți în baza acestor reguli.", 
+    	"Locul arbitrajului va fi [...] și limba în care se va desfășura arbitrajul va fi [...].",
+    	"Decizia tribunalului arbitral va fi definitivă și obligatorie."],
+
+     "exclusive_ro" : ["Părțile convin că orice litigiu, acțiune sau procedură în legătură cu prezentul contract va fi de competența exclusivă a instanțelor din [...]."],
+
+     "nonexclusive_ro" : ["Părțile convin că orice litigiu, acțiune sau procedură în legătură cu prezentul contract va fi de competența neexclusivă a instanțelor din [...]."],
+
+     "govlaw_ro" : ["Prezentul contract va fi guvernat de legile din [...]."],
+
+     "severability_ro" : ["Fiecare prevedere a prezentului Contract este separată de toate celelalte, în ciuda felului în care sunt legate gramatical sau altfel, iar dacă în caz de orice judecată și/sau hotărâre a unui organ jurisdicțional, orice prevedere, clauză sau paragraf din prezentul Contract este considerată nevalidă, nescrisă sau neexecutorie din orice motiv, prevederile, paragrafele sau clauzele rămase, vor continua sa fie în vigoare și să aibă efect deplin între părți."],
+
+     "waiver_ro" : ["Oricare dintre Părțile prezentului Contract poate, prin transmiterea unei notificări scrise către cealaltă parte, să renunțe la drepturile sale născute în baza Contractului.",
+      "Renunțarea de către o parte cu privire la dreptul de a acționa în ceea ce privește o încălcarea de către cealaltă parte a oricărei prevederi din Contract nu va opera și nu va fi interpretată ca o renunțare la o încălcare ulterioară."],
+
+     "noagency_ro" : ["Cu excepția cazului în care se prevede altfel în prezentul Contract, nici o clauză a acestuia nu va fi interpretatî în sensul că prezentul Contract dă naștere la o asociere, parteneriat sau societate între Părți sau că îndreptățește una din părți să acționeze ca mandatar sau reprezentant aș celeilalte părți."],
+
+      "thirdparty_ro" : ["Părțile convin, indiferent de ce se prevede prin celelate clauze, că prezentul Contract nu va și nu intenționează să confere vreun drept unei terțe părți."],
+
+      "disclosure_ro" : ["disclosure"],
+
+      "corporatereps_ro" : ["corporate"]
+}

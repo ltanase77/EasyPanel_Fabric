@@ -39,7 +39,7 @@ div {
     text-align: center; }
 
 .lang {
-  width: 50%;
+  width: 90%;
   margin: 0 auto;
   display: block;
   overflow: auto; }
@@ -54,8 +54,6 @@ div {
     /*overflow: auto;*/ }
   .lang .btn-lang {
     flex: 1;
-    box-shadow: inset rgba(255, 254, 255, 0.6) 0 0.3em 0.3em, inset rgba(0, 0, 0, 0.15) 0 -0.1em 0.3em, #5390c6 0 0.1em 3px, #336999 0 0.3em 1px, rgba(0, 0, 0, 0.2) 0 0.5em 5px; }
-  .lang .ms-Button-label {
     font-family: "Artifika", serif; }
 
 .jum_en, .jum_ro {
@@ -66,7 +64,6 @@ p a.ms-Button-small {
   min-width: 60px;
   padding: 4px 10px 6px;
   border-radius: 8px;
-  box-shadow: inset rgba(255, 254, 255, 0.6) 0 0.3em 0.3em, inset rgba(0, 0, 0, 0.15) 0 -0.1em 0.3em, #5390c6 0 0.1em 3px, #336999 0 0.3em 1px, rgba(0, 0, 0, 0.2) 0 0.5em 5px;
   text-decoration: none;
   font-family: "Artifika", serif;
   background-color: #c7e0f4; }
@@ -85,8 +82,7 @@ button.ms-Button-small {
   font-family: "Artifika", serif;
   font-size: 12px;
   background-color: ghostwhite;
-  border: 1px solid  #c7e0f4;
-  box-shadow: inset rgba(255, 254, 255, 0.6) 0 0.3em 0.3em, inset rgba(0, 0, 0, 0.15) 0 -0.1em 0.3em, #5390c6 0 0.1em 3px, #336999 0 0.3em 1px, rgba(0, 0, 0, 0.2) 0 0.5em 5px; }
+  border: 1px solid  #c7e0f4; }
   button.ms-Button-small:hover {
     background-color: #deecf9; }
   button.ms-Button-small:focus {

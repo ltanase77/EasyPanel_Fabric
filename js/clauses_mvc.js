@@ -13,30 +13,30 @@
                     var model = {
                         userLanguage: Office.context.document.displayLanguage,
 
-                        getData: function(clause) {
-                            $.ajax({
-                                url: "clauses_array.json",
-                                type: "GET",
-                                dataType : "text",
-                                success: function(data) {
-                                    var content = JSON.parse(data);
-                                    var articles = content[clause]
-                                    return clause;
-                                },
-                                error: function() {
-                                    return false;
-                                },
-                                timeout: 5000
+                        getData: function() {
+                            return $.ajax({
+                                    url: "clauses_array.json",
+                                    type: "GET",
+                                    dataType : "text",
+                                    timeout: 5000,
+                                    success: function(data) {
+                                        resolve(data);
+                                    },
+                                    error: function(data) {
+                                        reject(data);
+                                    }
                             });
                         }
+                            
+                        
                     };
 
                     var controller = {
                         init: function() {
-                            showLanguage();
-                            $(".lang button").on("click", view.showOptions($(this).text()));
-                            $("select").on("change", view.showButtons($(this).val()));
-                            $("button").on("click", controller.insertClause($(this).attr("id")));
+                            view.showLanguage();
+                            $(".lang button").on("click", function() { view.showOptions($(this).text()); } );
+                            $("select").on("change", function() { view.showButtons($(this).val()); } );
+                            $("section button").on("click", function() { controller.insertClause($(this).attr("id")); } );
                         },
 
                         getLanguage: function() {
@@ -44,30 +44,29 @@
                         },
 
                         insertClause: function(clause) {
-                            //Getting the clause as an array of individual paragraphs
-                            var articles = model.getData(clause);
-
                             if (Office.context.requirements.isSetSupported('WordApi', 1.1)) {
-                                Word.run(function (context) {
-                                // Create a proxy object for the document.
-
-                                    var thisDocument = context.document;
-                                    // Queue a command to get the current selection.
-                                    // Create a proxy range object for the selection.
-
-                                    var range = thisDocument.getSelection();
-                                    
-                                    // Queue a command to replace the selected text.
+                                Word.run(function(context) {
+                               
+                                    model.getData().then(function(response) {
+                                            var articles = JSON.parse(response);
+                                            articles = articles[clause];
+                                            var thisDocument = context.document;
+                                            var range = thisDocument.getSelection();
                                 
-                                    articles.forEach(function(elem) {
-                                        range.insertParagraph(elem, Word.InsertLocation.before);
-                                    });
-                        
-                                    // Synchronize the document state by executing the queued commands,
-                                    // and return a promise to indicate task completion.
-                                    return context.sync().then(function () {
-                                        $("#error").html("<p>Added clause</p>");
-                                    });
+                                            articles.forEach(function(elem) {
+                                                range.insertParagraph(elem, Word.InsertLocation.before);
+                                            });
+                                            return context.sync().then(function () {
+                                                $("#error").html("<p>Added clause</p>");
+                                            });
+                                        },
+                                        function(error) {
+                                            $('#error').html("<p>" + error + "</p>");
+                                        }
+                                    );
+                               
+                                    return context.sync();
+                            
                                 })
                                 .catch(function (error) {
                                     $("#error").html("<p>Error:" + JSON.stringify(error) + "</p>");
@@ -75,29 +74,38 @@
                                         $("#error").html("<p>Debug info: " + JSON.stringify(error.debugInfo) + "</p>");
                                     }
                                 });
-                            } 
-                            else {
-
-                                articles = articles.join(" ");
-
-                                //Using the setSelectedDataAsync method for injecting the content of the clause
-                                Office.context.document.setSelectedDataAsync(articles, function(asyncResult) {
-                                    if(asyncResult.status == Office.AsyncResultStatus.Failed) {
-                                    $("#error").html("<p>Debug info: " + asyncResult.error.message);
-                                    }
-                                });  
                             }
-                        }
+                            else {
+                                model.getData().then(function(response) {
+                                        var articles = JSON.parse(response);
+                                        articles = articles[clause];
+                                        articles = articles.join(" ");
+                                        //Using the setSelectedDataAsync method for injecting the content of the clause
+                                        Office.context.document.setSelectedDataAsync(articles, function(asyncResult) {
+                                            if(asyncResult.status == Office.AsyncResultStatus.Failed) {
+                                                $("#error").html("<p>Debug info: " + asyncResult.error.message);
+                                            }
+                                        });  
+                                    },
+                                    function(error) {
+                                           $('#error').html("<p>" + error + "</p>");
+                                    }
+                                );
+                            }
+                           
+                        } //End of insertClause function
                        
-                    }; //End of controller
+                    };  //End of controller
 
                     var view = {
                         showLanguage: function() {
-                            var language = getLanguage();
+                            var language = controller.getLanguage();
                             if (language === 'ro-RO') {
                                 $(".intro_ro").css("display", "block");
+                                $(".intro_en").css("display", "none");
                             } else {
                                 $(".intro_en").css("display", "block");
+                                $(".intro_ro").css("display", "none");
                             }
                         },
 
@@ -120,7 +128,7 @@
 
                         showButtons: function(btnVal) {
                             $(".buttons section").each(function() {
-                                if ( btnVal === $(this).attr("class") ) {
+                                if ( btnVal === $(this).attr("data-clause-type") ) {
                                     $(this).css("display", "block");
                                 } else {
                                     $(this).css("display", "none");
@@ -129,6 +137,8 @@
                         }
 
                     }; //End of view
+                    
+                    controller.init();
                       
                     $('#supportedVersion').html('<p>This code is using Word 2013 or greater.</p>');
 

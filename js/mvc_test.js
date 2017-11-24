@@ -9,7 +9,7 @@ $(document).ready(function () {
                 var jqXHR = $.ajax({
                     url: "clauses_array.json",
                     type: "GET",
-                    dataType : "text",
+                    dataType : "json", //"text"
                     timeout: 5000,
                     success: function(data) {
                         resolve(data);
@@ -19,8 +19,7 @@ $(document).ready(function () {
                     }
                 });
             });
-        },
-
+        }
     };
 
     var controller = {
@@ -37,16 +36,14 @@ $(document).ready(function () {
 
         insertClause: function(clause) {
             model.getData().then(function(response) { 
-                    var articles = JSON.parse(response);
-                    articles = articles[clause];
-                    articles.forEach(function(elem) {
-                        console.log(elem);
+                   //var articles = JSON.parse(response);
+                   var articles = response[clause];
+                   articles.forEach(function(elem) {
+                       console.log(elem);
                     });
-                }, 
-                function(error) {
-                    console.log(error);
+                }, function(error) {
+                	console.log(error.status + " " + error.statusText);
                 });
-            
         }
                        
     }; //End of controller

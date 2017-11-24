@@ -59,7 +59,7 @@ div {
 }
 
 .lang {
-	width: 50%;
+	width: 90%;
 	margin: 0 auto;
 	display: block;
 	overflow: auto;
@@ -77,10 +77,6 @@ div {
 	}
 	.btn-lang {
 		flex: 1;
-		box-shadow: inset rgba(255,254,255,0.6) 0 0.3em .3em, 
-					inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ hsl(208, 50%, 55%) 0 .1em 3px, hsl(208, 50%, 40%) 0 .3em 1px, /* color border */ rgba(0,0,0,0.2) 0 .5em 5px;
-	}
-	.ms-Button-label {
 		font-family: $font;
 	}
 }
@@ -94,8 +90,6 @@ p a.ms-Button-small {
 	min-width: 60px;
 	padding: 4px 10px 6px;
 	border-radius: 8px;
-	box-shadow: inset rgba(255,254,255,0.6) 0 0.3em .3em, 
-	inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ hsl(208, 50%, 55%) 0 .1em 3px, hsl(208, 50%, 40%) 0 .3em 1px, /* color border */ rgba(0,0,0,0.2) 0 .5em 5px;
 	text-decoration: none;
 	font-family: $font;
 	background-color: #c7e0f4;
@@ -121,9 +115,7 @@ button.ms-Button-small {
 	font-size: $font-size;
 	background-color: $button_bg_color;
 	border: 1px solid  #c7e0f4;
-	box-shadow: inset rgba(255,254,255,0.6) 0 0.3em .3em, 
-	inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ hsl(208, 50%, 55%) 0 .1em 3px, hsl(208, 50%, 40%) 0 .3em 1px, /* color border */ rgba(0,0,0,0.2) 0 .5em 5px;
-
+	
 	&:hover {
 		background-color: #deecf9;
 	}

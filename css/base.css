@@ -12,6 +12,10 @@ body {
 div {
   margin-bottom: 10px; }
 
+.header {
+  margin-left: -1em;
+  margin-right: -1em; }
+
 .nav {
   text-align: center; }
 
@@ -54,7 +58,11 @@ div {
     /*overflow: auto;*/ }
   .lang .btn-lang {
     flex: 1;
-    font-family: "Artifika", serif; }
+    font-family: "Artifika", serif;
+    background-color: #c7e0f4; }
+    .lang .btn-lang:hover {
+      color: white;
+      background-color: #0078d7; }
 
 .jum_en, .jum_ro {
   text-align: center; }
@@ -96,6 +104,8 @@ button.ms-Button-small {
   display: none; }
 
 .footer {
+  margin-left: -1em;
+  margin-right: -1em;
   position: absolute;
   bottom: 0;
   left: 0;

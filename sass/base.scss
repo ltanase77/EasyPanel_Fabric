@@ -21,9 +21,16 @@ body {
 div {
 	margin-bottom: 10px;
 }
+
+.header {
+	margin-left: -1em;
+	margin-right: -1em;
+}
+
 .nav {
 	text-align: center;
 }
+
 .navitem {
 	display: inline-block;
 	padding: 0.5em;
@@ -78,8 +85,16 @@ div {
 	.btn-lang {
 		flex: 1;
 		font-family: $font;
+		background-color: #c7e0f4;
+
+		&:hover {
+			color: white;
+			background-color: #0078d7;
+		}
 	}
 }
+
+
 
 .jum_en, .jum_ro {
 	text-align: center;
@@ -135,6 +150,8 @@ button.ms-Button-small {
 } 
 
 .footer {
+	margin-left: -1em;
+	margin-right: -1em;
 	position: absolute;
 	bottom: 0;
 	left: 0;

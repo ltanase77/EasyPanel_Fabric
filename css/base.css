@@ -106,6 +106,7 @@ button.ms-Button-small {
 .footer {
   margin-left: -1em;
   margin-right: -1em;
+  margin-bottom: 0;
   position: absolute;
   bottom: 0;
   left: 0;

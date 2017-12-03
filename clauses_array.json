@@ -33,11 +33,11 @@
 
     "icc_standard_ro" : ["Toate disputele născute în legătură cu prezentul contract vor fi în mod definitiv soluționate în conformitate cu Regulile de Arbitraj ale Camerei Internaționale de Comerț de către unul sau mai mulți arbitri numiți în baza acestor reguli."],
 
-    "icc_one_ro" : ["Toate disputele născute în legătură cu prezentul contract vor fi soluționate în conformitate cu Regulile de Arbitraj ale Camerei Internaționale de Comerț de către un singur arbitru numit în baza acestor reguli.", 
+    "icc_unu_ro" : ["Toate disputele născute în legătură cu prezentul contract vor fi soluționate în conformitate cu Regulile de Arbitraj ale Camerei Internaționale de Comerț de către un singur arbitru numit în baza acestor reguli.", 
     	"Locul arbitrajului va fi [...] și limba în care se va desfășura arbitrajul va fi [...].",
     	"Decizia tribunalului arbitral va fi definitivă și obligatorie."],
 
-    "icc_three_ro" : ["Toate disputele născute în legătură cu prezentul contract vor fi soluționate în conformitate cu Regulile de Arbitraj ale Camerei Internaționale de Comerț de către trei arbitri numiți în baza acestor reguli.", 
+    "icc_trei_ro" : ["Toate disputele născute în legătură cu prezentul contract vor fi soluționate în conformitate cu Regulile de Arbitraj ale Camerei Internaționale de Comerț de către trei arbitri numiți în baza acestor reguli.", 
     	"Locul arbitrajului va fi [...] și limba în care se va desfășura arbitrajul va fi [...].",
     	"Decizia tribunalului arbitral va fi definitivă și obligatorie."],
 

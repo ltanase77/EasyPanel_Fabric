@@ -5,6 +5,7 @@ $margin_bottom: 10px;
 $font: 'Artifika', serif;
 $button_bg_color: ghostwhite;
 $font-size: 12px;
+$main_color: #00188f;
 
 html {
 	height: 100%;
@@ -17,6 +18,7 @@ body {
 	padding-bottom: 50px;
 	font-family: $font;
 	font-size: $font-size;
+	color: $main_color;
 }
 div {
 	margin-bottom: 10px;
@@ -58,10 +60,13 @@ div {
 
 .page-header  {
 	margin: 20px 0 10px;
+	border-bottom: 1px solid #eee;
 
 	h1 {
 		font-size: 20px;
 		text-align: center;
+		padding-bottom: 10px;
+		color: $main_color;
 	}
 }
 
@@ -74,6 +79,8 @@ div {
 	h2 {
     	font-size: 18px;
     	text-align: center;
+    	padding: 10px 0;
+    	color: $main_color;
 	}
 	div {
 		display: flex;
@@ -86,6 +93,7 @@ div {
 		flex: 1;
 		font-family: $font;
 		background-color: #c7e0f4;
+		color: $main_color;
 
 		&:hover {
 			color: white;
@@ -100,6 +108,10 @@ div {
 	text-align: center;
 }
 
+.intro {
+	line-height: 15px;
+}
+
 p a.ms-Button-small {
 	height: 26px;
 	min-width: 60px;
@@ -108,6 +120,7 @@ p a.ms-Button-small {
 	text-decoration: none;
 	font-family: $font;
 	background-color: #c7e0f4;
+	color: $main_color;
 
 	&:hover {
 		color: white;
@@ -118,14 +131,29 @@ p a.ms-Button-small {
 
 .content div.ms-Dropdown {
 	font-family: $font;
+	color: $main_color;
+
+	& :focus {
+		color: #5c005c;
+		} 
+		
+	&:hover {
+		color: $main_color;
+	}
+
 }
+
+span.ms-Dropdown-title {
+	color: $main_color;
+}
+
 
 .buttons section p {
 	margin-bottom: 0.5em;
 }
 
 button.ms-Button-small {
-	color: #00188f;
+	color: $main_color;
 	font-family: $font;
 	font-size: $font-size;
 	background-color: $button_bg_color;
@@ -143,6 +171,10 @@ button.ms-Button-small {
 	
 .EN, .RO {
   display: none; 
+}
+
+.option, .options_ro {
+	display:none;
 }
 
 .ms-Grid {

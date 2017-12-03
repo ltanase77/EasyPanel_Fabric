@@ -7,7 +7,7 @@ var sassFiles = ['sass/reset.scss', 'sass/*.scss']
 
 gulp.task('serve', ['sass', 'scripts'], function() {
     browserSync.init({
-        proxy: 'http://127.0.0.1:8080/WordApi/Fabric',
+        proxy: 'http://127.0.0.1:8887/WordApi/Fabric',
         files: ['css/*.css', 'sass/*.scss', 'js/*.js']
     });
 

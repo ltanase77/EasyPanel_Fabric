@@ -5,20 +5,12 @@ $(document).ready(function () {
         userLanguage: 'en-EN',
 
         getData: function() {
-            return new Promise(function(resolve, reject) {
-                var jqXHR = $.ajax({
-                    url: "clauses_array.json",
+            return $.ajax({
+                    url: "clause_array.json",
                     type: "GET",
                     dataType : "json", //"text"
                     timeout: 5000,
-                    success: function(data) {
-                        resolve(data);
-                    },
-                    error: function(data) {
-                        reject(data);
-                    }
                 });
-            });
         }
     };
 
@@ -35,14 +27,27 @@ $(document).ready(function () {
         },
 
         insertClause: function(clause) {
-            model.getData().then(function(response) { 
+            model.getData()
+                .then(function(response) { 
                    //var articles = JSON.parse(response);
                    var articles = response[clause];
                    articles.forEach(function(elem) {
                        console.log(elem);
                     });
-                }, function(error) {
-                	console.log(error.status + " " + error.statusText);
+                })
+                .catch(function(error) {
+                    var dialog = document.querySelector(".ms-Dialog");
+                    var button = document.querySelector(".Dialog-button");
+                    $(".ms-Dialog-title").html("<p>An Error has ocurred</p>");
+                    $(".ms-Dialog-content").html("<p>We were unable to retrieve the clause!</p><p>We aplogize for any inconvenience!</p>");
+                    var dialogComponent = new fabric['Dialog'](dialog);
+                    dialogComponent.open();
+                    function closeDialog(dialog) {
+                        dialogComponent.close();
+                    }
+                    button.onclick = function() {
+                        closeDialog(dialog);
+                    };
                 });
         }
                        

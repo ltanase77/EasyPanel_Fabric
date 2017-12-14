@@ -181,6 +181,21 @@ button.ms-Button-small {
 	display: none;
 } 
 
+div.ms-MessageBanner {
+	height: 40px;
+}
+
+div.ms-MessageBanner-text {
+	margin: 0;
+	padding: 10px 0;
+	font-family: $font;
+	color: $main_color;
+	
+	.ms-MessageBanner-clipper {
+		margin: 0;
+	}
+}
+
 .footer {
 	margin-left: -1em;
 	margin-right: -1em;

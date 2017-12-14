@@ -18,13 +18,7 @@
                                     url: "clauses_array.json",
                                     type: "GET",
                                     dataType : "text",
-                                    timeout: 5000,
-                                    success: function(data) {
-                                        resolve(data);
-                                    },
-                                    error: function(data) {
-                                        reject(data);
-                                    }
+                                    timeout: 5000
                             });
                         }
                             
@@ -59,14 +53,23 @@
                                             return context.sync().then(function () {
                                                 $("#error").html("<p>Added clause</p>");
                                             });
-                                        },
-                                        function(error) {
-                                            $('#error').html("<p>" + error + "</p>");
+                                    })
+                                    .catch(function(error) {
+                                        var dialog = document.querySelector(".ms-Dialog");
+                                        var button = document.querySelector(".Dialog-button");
+                                        $(".ms-Dialog-title").html("<p>An Error has ocurred</p>");
+                                        $(".ms-Dialog-content").html("<p>We were unable to retrieve the clause!</p><p>We aplogize for any inconvenience!</p>");
+                                        var dialogComponent = new fabric['Dialog'](dialog);
+                                        dialogComponent.open();
+                                        function closeDialog(dialog) {
+                                            dialogComponent.close();
                                         }
-                                    );
+                                        button.onclick = function() {
+                                            closeDialog(dialog);
+                                        };
+                                    });
                                
                                     return context.sync();
-                            
                                 })
                                 .catch(function (error) {
                                     $("#error").html("<p>Error:" + JSON.stringify(error) + "</p>");

@@ -125,6 +125,17 @@ button.ms-Button-small {
 .ms-Grid {
   display: none; }
 
+div.ms-MessageBanner {
+  height: 40px; }
+
+div.ms-MessageBanner-text {
+  margin: 0;
+  padding: 10px 0;
+  font-family: "Artifika", serif;
+  color: #00188f; }
+  div.ms-MessageBanner-text .ms-MessageBanner-clipper {
+    margin: 0; }
+
 .footer {
   margin-left: -1em;
   margin-right: -1em;

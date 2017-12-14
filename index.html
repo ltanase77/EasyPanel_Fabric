@@ -27,6 +27,15 @@
             </div>
         </div>
         <!-- Main Content -->
+		<div class="ms-Dialog ms-Dialog--close">
+            <button class="ms-Dialog-button ms-Dialog-buttonClose"><i class="ms-Icon ms-Icon--Cancel"></i></button>
+            <div class="ms-Dialog-title"></div>
+            <div class="ms-Dialog-content"></div>
+            <div class="ms-Dialog-actions">
+                <button class="ms-Button ms-Button-small Dialog-button">Close</button>
+            </div>
+        </div>
+
         <div class="main">
             <div class="intro_en">
                 <div class="page-header">
@@ -64,15 +73,6 @@
             <div class="content">
                     
                 <div class="EN">
-
-                    <div class="ms-Dialog ms-Dialog--close">
-                        <button class="ms-Dialog-button ms-Dialog-buttonClose"><i class="ms-Icon ms-Icon--Cancel"></i></button>
-                        <div class="ms-Dialog-title"></div>
-                        <div class="ms-Dialog-content"></div>
-                        <div class="ms-Dialog-actions">
-                            <button class="ms-Button ms-Button-small Dialog-button">Close</button>
-                        </div>
-                    </div>
                         
                     <div class="options ms-Dropdown" tabindex="0">
                         <i class="ms-Dropdown-caretDown ms-Icon ms-Icon--ChevronDown"></i>
@@ -135,7 +135,7 @@
                             <option value="arbitration">Arbitraj</option>
                             <option value="court">Alegerea instantei</option>
                             <option value="miscellanous">Diverse</option>
-                            <option value="representations"/>Declaratii</label>
+                            <option value="representations">Declaratii</option>
                         </select>
                     </div>
                         
@@ -186,8 +186,16 @@
                 </div>
             </div>
 
-            <div id="supportedVersion"/></div>
-        </div>
+            <div id="supportedVersion" class="ms-MessageBanner">
+            	<div class="ms-MessageBanner-content">
+            		<div class="ms-MessageBanner-text">
+            			<div class="ms-MessageBanner-clipper"></div>
+            		</div>
+            		<button class="ms-MessageBanner-expand"><i class="ms-Icon ms-Icon--ChevronDown"></i></button>
+            		<div class="ms-MessageBanner-action"></div>
+            	</div>
+            	<button class="ms-MessageBanner-close"><i class="ms-Icon ms-Icon--Clear"></i></button>
+        	</div>
 
         <div class="footer ms-bgColor-themePrimary">
             <ul>
@@ -208,48 +216,7 @@
             var Dropdown = new fabric['Dropdown'](DropdownHTMLElements[i]);
             }
 
-
-            /*(function() {
-                var container = document.querySelector(".EN");
-                var button = container.querySelector(".docs-DialogExample-button");
-                var dialog = container.querySelector(".ms-Dialog");
-                //var label = example.querySelector(".docs-DialogExample-label")
-                //var checkBoxElements = example.querySelectorAll(".ms-CheckBox");
-                //var actionButtonElements = example.querySelectorAll(".ms-Dialog-action");
-                //var checkBoxComponents = [];
-                //var actionButtonComponents = [];
-                // Wire up the dialog
-                var dialogComponent = new fabric['Dialog'](dialog);
-                // Wire up the checkBoxes
-                /*for (var i = 0; i < checkBoxElements.length; i++) {
-                  checkBoxComponents[i] = new fabric['CheckBox'](checkBoxElements[i]);
-                } 
-                // Wire up the buttons
-                /*for (var i = 0; i < actionButtonElements.length; i++) {
-                  actionButtonComponents[i] = new fabric['Button'](actionButtonElements[i], actionHandler);
-                }
-                // When clicking the button, close the dialog
-                button.onclick = function() {
-                  closeDialog(dialog);
-                };
-                
-                /*function actionHandler(event) {
-                  var labelText = "";
-                  var counter = 0;
-                  for (var i = 0; i < checkBoxComponents.length; i++) {
-                    if (checkBoxComponents[i].getValue()) {
-                      counter++;
-                    }
-                  }
-                  labelText += counter + " option(s) selected. " + this.innerText.trim() + " clicked";
-                  label.innerText = labelText;
-                } 
-                function closeDialog(dialog) {
-                  // Open the dialog
-                  dialogComponent.close();
-                }
-
-             }()); */
+            var MessageBanner = new fabric['MessageBanner'](document.querySelector('.ms-MessageBanner'));
 
         </script>
     </body>

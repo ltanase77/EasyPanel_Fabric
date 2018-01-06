@@ -125,8 +125,35 @@ button.ms-Button-small {
 .ms-Grid {
   display: none; }
 
-div.ms-MessageBanner {
+div.ms-MessageBanner.is-expanded {
   height: 40px; }
+
+div.ms-MessageBanner {
+  height: 40px;
+  border-bottom-color: #2196f3; }
+  div.ms-MessageBanner .ms-MessageBanner-text {
+    max-width: 90%;
+    min-width: 75%;
+    text-align: center; }
+    div.ms-MessageBanner .ms-MessageBanner-text .ms-MessageBanner-clipper {
+      max-width: 95%; }
+  div.ms-MessageBanner .ms-MessageBanner-close {
+    width: 16px;
+    height: 16px;
+    padding: 1px;
+    line-height: 16px;
+    font-size: 12px; }
+    div.ms-MessageBanner .ms-MessageBanner-close .ms-Icon {
+      font-size: 12px; }
+  div.ms-MessageBanner .ms-MessageBanner-expand {
+    width: 16px;
+    height: 16px;
+    margin-right: 2px;
+    margin-left: -10px;
+    padding: 1px;
+    line-height: 16px; }
+    div.ms-MessageBanner .ms-MessageBanner-expand .ms-Icon {
+      font-size: 12px; }
 
 div.ms-MessageBanner-text {
   margin: 0;

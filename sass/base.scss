@@ -179,10 +179,45 @@ button.ms-Button-small {
 
 .ms-Grid {
 	display: none;
-} 
-
+}
+div.ms-MessageBanner.is-expanded {
+	height: 40px;
+}
 div.ms-MessageBanner {
 	height: 40px;
+	border-bottom-color: #2196f3;
+	.ms-MessageBanner-text {
+		max-width: 90%;
+		min-width: 75%;
+		text-align: center;
+		.ms-MessageBanner-clipper {
+			max-width: 95%;
+		}
+	}
+	.ms-MessageBanner-close {
+		width: 16px;
+		height: 16px;
+		padding: 1px;
+		line-height: 16px;
+		font-size: 12px;
+		.ms-Icon {
+			font-size: 12px;
+		}
+	}
+	.ms-MessageBanner-expand {
+		width: 16px;
+		height: 16px;
+		margin-right: 2px;
+		margin-left: -10px;
+		padding: 1px;
+		line-height: 16px;
+
+		.ms-Icon {
+			font-size: 12px;
+		}
+
+	}
+
 }
 
 div.ms-MessageBanner-text {

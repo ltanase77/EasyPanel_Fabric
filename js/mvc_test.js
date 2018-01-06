@@ -6,10 +6,10 @@ $(document).ready(function () {
 
         getData: function() {
             return $.ajax({
-                    url: "clause_array.json",
+                    url: "clauses_array.json",
                     type: "GET",
                     dataType : "json", //"text"
-                    timeout: 5000,
+                    timeout: 5000
                 });
         }
     };
@@ -69,7 +69,7 @@ $(document).ready(function () {
         },
 
         showAlert: function(lang) {
-            if (lang =="en-EN" || lang == "English" || lang == "Engleză") {
+            if (lang === "en-EN" || lang === "English" || lang === "Engleză") {
                 $(".ms-MessageBanner-clipper").text('This panel use Word 2013 or greater');
             } else {
                 $(".ms-MessageBanner-clipper").text('Acest panou foloseste Word 2013 sau o versiune mai recenta')

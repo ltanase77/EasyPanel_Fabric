@@ -15,7 +15,7 @@
 
                         getData: function() {
                             return $.ajax({
-                                    url: "clauses_array.json",
+                                    url: "../json/clauses_array.json",
                                     type: "GET",
                                     dataType : "text",
                                     timeout: 5000
@@ -27,6 +27,7 @@
 
                     var controller = {
                         init: function() {
+                            view.setDate();
                             view.showLanguage();
                             $(".lang button").on("click", function() { view.showOptions($(this).text()); } );
                             $("select").on("change", function() { view.showButtons($(this).val()); } );
@@ -85,7 +86,7 @@
                                         articles = articles.join(" ");
                                         //Using the setSelectedDataAsync method for injecting the content of the clause
                                         Office.context.document.setSelectedDataAsync(articles, function(asyncResult) {
-                                            if(asyncResult.status == Office.AsyncResultStatus.Failed) {
+                                            if(asyncResult.status === Office.AsyncResultStatus.Failed) {
                                                 $("#error").html("<p>Debug info: " + asyncResult.error.message);
                                             }
                                         });  
@@ -137,6 +138,12 @@
                                     $(this).css("display", "none");
                                 }
                             });
+                        },
+
+                        setDate: function() {
+                            var date = new Date();
+                            var year = date.getFullYear();
+                            $('.first span').text(year);
                         }
 
                     }; //End of view

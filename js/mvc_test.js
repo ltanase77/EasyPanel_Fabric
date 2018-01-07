@@ -6,7 +6,7 @@ $(document).ready(function () {
 
         getData: function() {
             return $.ajax({
-                    url: "clauses_array.json",
+                    url: "../json/clauses_array.json",
                     type: "GET",
                     dataType : "json", //"text"
                     timeout: 5000
@@ -16,6 +16,7 @@ $(document).ready(function () {
 
     var controller = {
         init: function() {
+            view.setDate();
             view.showLanguage();
             view.showAlert(controller.getLanguage());
             $(".lang button").on("click", function() { view.showOptions($(this).text()); } );
@@ -104,6 +105,12 @@ $(document).ready(function () {
                     $(this).css("display", "none");
                 }
             });
+        },
+
+        setDate: function() {
+            var date = new Date();
+            var year = date.getFullYear();
+            $('.first span').text(year);
         }
 
     }; //End of view 

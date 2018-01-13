@@ -6,7 +6,7 @@ $(document).ready(function () {
 
         getData: function() {
             return $.ajax({
-                    url: "../json/clauses_array.json",
+                    url: "json/clauses_array.json",
                     type: "GET",
                     dataType : "json", //"text"
                     timeout: 5000

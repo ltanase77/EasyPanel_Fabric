@@ -6,6 +6,7 @@ $font: 'Artifika', serif;
 $button_bg_color: ghostwhite;
 $font-size: 12px;
 $main_color: #00188f;
+$secondary_color: #5c005c;
 
 html {
 	height: 100%;
@@ -106,6 +107,13 @@ div {
 
 .jum_en, .jum_ro {
 	text-align: center;
+	padding: 10px 0;
+    background-color: ghostwhite;
+    border: 1px solid #dfd1ef;
+    border-radius: 0 20px;
+    p {
+      color: $secondary_color;
+    }
 }
 
 .intro {
@@ -189,9 +197,16 @@ div.ms-MessageBanner {
 	.ms-MessageBanner-text {
 		max-width: 90%;
 		min-width: 75%;
+        margin: 0;
+        padding: 10px 0;
+        font-family: $font;
+        color: $main_color;
 		text-align: center;
 		.ms-MessageBanner-clipper {
+            margin: 0;
 			max-width: 95%;
+            line-height: 14px;
+            color: $secondary_color;
 		}
 	}
 	.ms-MessageBanner-close {
@@ -218,17 +233,6 @@ div.ms-MessageBanner {
 
 	}
 
-}
-
-div.ms-MessageBanner-text {
-	margin: 0;
-	padding: 10px 0;
-	font-family: $font;
-	color: $main_color;
-	
-	.ms-MessageBanner-clipper {
-		margin: 0;
-	}
 }
 
 .footer {

@@ -72,7 +72,13 @@ div {
       background-color: #0078d7; }
 
 .jum_en, .jum_ro {
-  text-align: center; }
+  text-align: center;
+  padding: 10px 0;
+  background-color: ghostwhite;
+  border: 1px solid #dfd1ef;
+  border-radius: 0 20px; }
+  .jum_en p, .jum_ro p {
+    color: #5c005c; }
 
 .intro {
   line-height: 15px; }
@@ -134,9 +140,16 @@ div.ms-MessageBanner {
   div.ms-MessageBanner .ms-MessageBanner-text {
     max-width: 90%;
     min-width: 75%;
+    margin: 0;
+    padding: 10px 0;
+    font-family: "Artifika", serif;
+    color: #00188f;
     text-align: center; }
     div.ms-MessageBanner .ms-MessageBanner-text .ms-MessageBanner-clipper {
-      max-width: 95%; }
+      margin: 0;
+      max-width: 95%;
+      line-height: 14px;
+      color: #5c005c; }
   div.ms-MessageBanner .ms-MessageBanner-close {
     width: 16px;
     height: 16px;
@@ -154,14 +167,6 @@ div.ms-MessageBanner {
     line-height: 16px; }
     div.ms-MessageBanner .ms-MessageBanner-expand .ms-Icon {
       font-size: 12px; }
-
-div.ms-MessageBanner-text {
-  margin: 0;
-  padding: 10px 0;
-  font-family: "Artifika", serif;
-  color: #00188f; }
-  div.ms-MessageBanner-text .ms-MessageBanner-clipper {
-    margin: 0; }
 
 .footer {
   margin-left: -1em;

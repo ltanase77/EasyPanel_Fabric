@@ -193,6 +193,7 @@ div.ms-MessageBanner.is-expanded {
 }
 div.ms-MessageBanner {
 	height: 40px;
+    min-width: 275px;
 	border-bottom-color: #2196f3;
 	.ms-MessageBanner-text {
 		max-width: 90%;

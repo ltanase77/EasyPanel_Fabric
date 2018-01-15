@@ -6,6 +6,7 @@ $font: 'Artifika', serif;
 $button_bg_color: ghostwhite;
 $font-size: 12px;
 $main_color: #00188f;
+$secondary_color: #5c005c;
 
 html {
 	height: 100%;
@@ -67,6 +68,7 @@ div {
 		text-align: center;
 		padding-bottom: 10px;
 		color: $main_color;
+        text-shadow: 2px 2px 4px rgba(0, 0, 128, 0.5);
 	}
 }
 
@@ -106,6 +108,14 @@ div {
 
 .jum_en, .jum_ro {
 	text-align: center;
+	padding: 10px 0;
+    background-color: ghostwhite;
+	margin-top: 10px;
+    border: 1px solid #dfd1ef;
+    border-radius: 10px 10px;
+    p {
+      color: $secondary_color;
+    }
 }
 
 .intro {
@@ -179,7 +189,54 @@ button.ms-Button-small {
 
 .ms-Grid {
 	display: none;
-} 
+}
+div.ms-MessageBanner.is-expanded {
+	height: 40px;
+}
+div.ms-MessageBanner {
+	height: 40px;
+    min-width: 275px;
+	border-bottom-color: #2196f3;
+	.ms-MessageBanner-text {
+		max-width: 90%;
+		min-width: 75%;
+        margin: 0;
+        padding: 10px 0;
+        font-family: $font;
+        color: $main_color;
+		text-align: center;
+		.ms-MessageBanner-clipper {
+            margin: 0;
+			max-width: 95%;
+            line-height: 14px;
+            color: $secondary_color;
+		}
+	}
+	.ms-MessageBanner-close {
+		width: 16px;
+		height: 16px;
+		padding: 1px;
+		line-height: 16px;
+		font-size: 12px;
+		.ms-Icon {
+			font-size: 12px;
+		}
+	}
+	.ms-MessageBanner-expand {
+		width: 16px;
+		height: 16px;
+		margin-right: 2px;
+		margin-left: -10px;
+		padding: 1px;
+		line-height: 16px;
+
+		.ms-Icon {
+			font-size: 12px;
+		}
+
+	}
+
+}
 
 .footer {
 	margin-left: -1em;

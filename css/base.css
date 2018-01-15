@@ -44,7 +44,8 @@ div {
     font-size: 20px;
     text-align: center;
     padding-bottom: 10px;
-    color: #00188f; }
+    color: #00188f;
+    text-shadow: 2px 2px 4px rgba(0, 0, 128, 0.5); }
 
 .lang {
   width: 90%;
@@ -75,8 +76,9 @@ div {
   text-align: center;
   padding: 10px 0;
   background-color: ghostwhite;
+  margin-top: 10px;
   border: 1px solid #dfd1ef;
-  border-radius: 0 20px; }
+  border-radius: 10px 10px; }
   .jum_en p, .jum_ro p {
     color: #5c005c; }
 

@@ -116,18 +116,21 @@
 
                     showOptions: function(btnText) {
                         var target = btnText;
+                        var supportedVersion = $("#supportedVersion");
                         if (target === "Romanian" || target === "Română") {
                             $(".RO").css("display", "block");
                             $(".options_ro").css("display", "block");
                             $(".intro_ro").css("display", "block");
                             $(".EN").css("display", "none");
                             $(".intro_en").css("display", "none");
+                            if (supportedVersion) { view.showAlert(target);}
                         } else if (target === "English" || target === "Engleză") {
                             $(".EN").css("display", "block");
                             $(".intro_en").css("display", "block");
                             $(".options").css("display", "block");
                             $(".RO").css("display", "none");
                             $(".intro_ro").css("display", "none");
+                            if (supportedVersion) { view.showAlert(target);}
                         }
                     },
 

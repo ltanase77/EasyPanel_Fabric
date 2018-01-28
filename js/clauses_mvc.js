@@ -7,7 +7,7 @@
 
                 var model = {
                     userLanguage: Office.context.document.displayLanguage,
-
+                    //function used for retrieving the content of the clauses
                     getData: function() {
                         return $.ajax({
                             url: "../json/clauses_array.json",
@@ -19,6 +19,7 @@
                 };
 
                 var controller = {
+                    //initialization function that sets the initial view and the necessary event handlers
                     init: function() {
                         view.setDate();
                         view.showLanguage();
@@ -31,24 +32,25 @@
                     getLanguage: function() {
                         return model.userLanguage;
                     },
-
+                    //main function that parse the json data received from getData function and inserts the text in the Word document
                     insertClause: function(clause) {
                         if (Office.context.requirements.isSetSupported('WordApi', 1.1)) {
                             Word.run(function(context) {
 
-                                model.getData().then(function(response) {
-                                    var articles = JSON.parse(response);
-                                    articles = articles[clause];
-                                    var thisDocument = context.document;
-                                    var range = thisDocument.getSelection();
+                                model.getData()
+                                    .then(function(response) {
+                                        var articles = JSON.parse(response);
+                                        articles = articles[clause];
+                                        var thisDocument = context.document;
+                                        var range = thisDocument.getSelection();
 
-                                    articles.forEach(function(elem) {
-                                        range.insertParagraph(elem, Word.InsertLocation.before);
-                                    });
-                                    return context.sync().then(function () {
-                                        $("#error").html("<p>Added clause</p>");
-                                    });
-                                })
+                                        articles.forEach(function(elem) {
+                                            range.insertParagraph(elem, Word.InsertLocation.before);
+                                        });
+                                        return context.sync().then(function () {
+                                            $("#error").html("<p>Added clause</p>");
+                                        });
+                                    })
                                     .catch(function(error) {
                                         var dialog = document.querySelector(".ms-Dialog");
                                         var button = document.querySelector(".Dialog-button");
@@ -66,23 +68,24 @@
 
                                 return context.sync();
                             })
-                                .catch(function (error) {
-                                    $("#error").html("<p>Error:" + JSON.stringify(error) + "</p>");
+                            .catch(function (error) {
+                                $("#error").html("<p>Error:" + JSON.stringify(error) + "</p>");
                                     if (error instanceof OfficeExtension.Error) {
                                         $("#error").html("<p>Debug info: " + JSON.stringify(error.debugInfo) + "</p>");
                                     }
-                                });
+                            });
                         }
                         else {
-                            model.getData().then(function(response) {
+                            model.getData().then(
+                                function(response) {
                                     var articles = JSON.parse(response);
                                     articles = articles[clause];
                                     articles = articles.join(" ");
                                     //Using the setSelectedDataAsync method for injecting the content of the clause
                                     Office.context.document.setSelectedDataAsync(articles, function(asyncResult) {
-                                        if(asyncResult.status === Office.AsyncResultStatus.Failed) {
-                                            $("#error").html("<p>Debug info: " + asyncResult.error.message);
-                                        }
+                                         if(asyncResult.status === Office.AsyncResultStatus.Failed) {
+                                              $("#error").html("<p>Debug info: " + asyncResult.error.message);
+                                         }
                                     });
                                 },
                                 function(error) {
@@ -104,7 +107,7 @@
                             $(".intro_ro").css("display", "none");
                         }
                     },
-
+                    //function used for showing the dissmisable alert banner which inform the user about the word version needed for running the panel
                     showAlert: function(lang) {
                         if (lang === "en-EN" || lang === "English" || lang === "Engleză") {
                             $(".ms-MessageBanner-clipper").text('This panel use Word 2013 or greater');
@@ -113,7 +116,8 @@
                         }
 
                     },
-
+                    //function showing the options that the user has for choosing a category of clauses
+                    //it is invoked when the user choose the language
                     showOptions: function(btnText) {
                         var target = btnText;
                         var supportedVersion = $("#supportedVersion");
@@ -133,7 +137,8 @@
                             if (supportedVersion) { view.showAlert(target);}
                         }
                     },
-
+                    //functions showing the button used for inserting the clauseș
+                    // it is invoked based on the selection made by the user
                     showButtons: function(btnVal) {
                         $(".buttons section").each(function() {
                             if ( btnVal === $(this).attr("data-clause-type") ) {
@@ -143,7 +148,7 @@
                             }
                         });
                     },
-
+                    //function for setting the year in the footer of the panel
                     setDate: function() {
                         var date = new Date();
                         var year = date.getFullYear();

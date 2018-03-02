@@ -27,9 +27,21 @@
     "disclosure_en" : ["Each party to this Agreement hereby agrees with the other party hereto that, except as may be required to comply with applicable laws, no press release or similar public announcement or communication will be made or caused to be made concerning the execution or performance of this Agreement unless specifically approved in advance and in writing by the parties hereto.", 
       "The parties hereto further agree that any public announcement required by applicable Laws shall only be made after reasonable notice to the other party."],
 
-    "corporatereps_en" : ["The Party has full and absolute legal right, power, capacity and authority to execute, deliver and perform this Agreement and to perform the Party’s obligations hereunder and thereunder and to consummate the transactions contemplated hereby and thereby.", 
-      "This Agreement has been validly executed and delivered by the Party, and constitutes a valid and binding obligation of the Party enforceable against theParty in accordance with its terms.", 
-      "Each other Document to which the Party is a party, when executed and delivered in accordance with the provisions hereof or thereof, shall be a valid and binding obligation of the Party thereto enforceable against such Party in accordance with their terms."],
+    "existencereps_en" : ["The parties are corporations incorporated and existing under the laws of the jurisdictions of their respective incorporation"],
+
+    "noconflictreps_en" : ["Neither party is under any restriction or obligation that the party could reasonably expect might affect the party's performance of its obligations under this agreement."],
+
+    "nobreachreps_en" : ["Neither party’s execution, delivery, or performance of its obligations under this agreement will breach or result in a default under:",
+                          "a) its articles, bylaws, or any unanimous shareholders agreement,",
+                          "b) any Law to which it is subject,",
+                          "c) any judgment, Order, or decree of any Governmental Authority to which it is subject, or",
+                          "d) any agreement to which it is a party or by which it is bound."],
+
+    "authorityreps_en" : ["The parties have the authority and capacity to enter into this agreement."],
+
+    "enforceabilityreps_en" : ["This Agreement has been validly executed and delivered by the Party, and constitutes a valid and binding obligation of the Party enforceable against the Party in accordance with its terms."],
+
+    "nodisputereps_en" : ["Except as disclosed in the parties's Disclosure Letters, there are no Legal Proceedings pending, threatened, or foreseeable against either party, which would affect that party’s ability to complete its obligations under this agreement."],
 
     "icc_standard_ro" : ["Toate disputele născute în legătură cu prezentul contract vor fi în mod definitiv soluționate în conformitate cu Regulile de Arbitraj ale Camerei Internaționale de Comerț de către unul sau mai mulți arbitri numiți în baza acestor reguli."],
 
@@ -41,22 +53,29 @@
     	"Locul arbitrajului va fi [...] și limba în care se va desfășura arbitrajul va fi [...].",
     	"Decizia tribunalului arbitral va fi definitivă și obligatorie."],
 
-     "exclusive_ro" : ["Părțile convin că orice litigiu, acțiune sau procedură în legătură cu prezentul contract va fi de competența exclusivă a instanțelor din [...]."],
+    "exclusive_ro" : ["Părțile convin că orice litigiu, acțiune sau procedură în legătură cu prezentul contract va fi de competența exclusivă a instanțelor din [...]."],
 
-     "nonexclusive_ro" : ["Părțile convin că orice litigiu, acțiune sau procedură în legătură cu prezentul contract va fi de competența neexclusivă a instanțelor din [...]."],
+    "nonexclusive_ro" : ["Părțile convin că orice litigiu, acțiune sau procedură în legătură cu prezentul contract va fi de competența neexclusivă a instanțelor din [...]."],
 
-     "govlaw_ro" : ["Prezentul contract va fi guvernat de legile din [...]."],
+    "govlaw_ro" : ["Prezentul contract va fi guvernat de legile din [...]."],
 
-     "severability_ro" : ["Fiecare prevedere a prezentului Contract este separată de toate celelalte, în ciuda felului în care sunt legate gramatical sau altfel, iar dacă în caz de orice judecată și/sau hotărâre a unui organ jurisdicțional, orice prevedere, clauză sau paragraf din prezentul Contract este considerată nevalidă, nescrisă sau neexecutorie din orice motiv, prevederile, paragrafele sau clauzele rămase, vor continua sa fie în vigoare și să aibă efect deplin între părți."],
+    "severability_ro" : ["Fiecare prevedere a prezentului Contract este separată de toate celelalte, în ciuda felului în care sunt legate gramatical sau altfel, iar dacă în caz de orice judecată și/sau hotărâre a unui organ jurisdicțional, orice prevedere, clauză sau paragraf din prezentul Contract este considerată nevalidă, nescrisă sau neexecutorie din orice motiv, prevederile, paragrafele sau clauzele rămase, vor continua sa fie în vigoare și să aibă efect deplin între părți."],
 
-     "waiver_ro" : ["Oricare dintre Părțile prezentului Contract poate, prin transmiterea unei notificări scrise către cealaltă parte, să renunțe la drepturile sale născute în baza Contractului.",
+    "waiver_ro" : ["Oricare dintre Părțile prezentului Contract poate, prin transmiterea unei notificări scrise către cealaltă parte, să renunțe la drepturile sale născute în baza Contractului.",
       "Renunțarea de către o parte cu privire la dreptul de a acționa în ceea ce privește o încălcarea de către cealaltă parte a oricărei prevederi din Contract nu va opera și nu va fi interpretată ca o renunțare la o încălcare ulterioară."],
 
-     "noagency_ro" : ["Cu excepția cazului în care se prevede altfel în prezentul Contract, nici o clauză a acestuia nu va fi interpretatî în sensul că prezentul Contract dă naștere la o asociere, parteneriat sau societate între Părți sau că îndreptățește una din părți să acționeze ca mandatar sau reprezentant aș celeilalte părți."],
+    "noagency_ro" : ["Cu excepția cazului în care se prevede altfel în prezentul Contract, nici o clauză a acestuia nu va fi interpretatî în sensul că prezentul Contract dă naștere la o asociere, parteneriat sau societate între Părți sau că îndreptățește una din părți să acționeze ca mandatar sau reprezentant aș celeilalte părți."],
 
-      "thirdparty_ro" : ["Părțile convin, indiferent de ce se prevede prin celelate clauze, că prezentul Contract nu va și nu intenționează să confere vreun drept unei terțe părți."],
+    "thirdparty_ro" : ["Părțile convin, indiferent de ce se prevede prin celelate clauze, că prezentul Contract nu va și nu intenționează să confere vreun drept unei terțe părți."],
 
-      "disclosure_ro" : ["disclosure"],
+    "disclosure_ro" : ["Părțile sunt de acord ca, exceptând cazul când acest lucru este impus de reglemntările în vigoare, nicio declarație de presă sau anunț sau comunicare publică nu va fi făcută în legătură cu încheierea sau executarea prezentului Contract, fără să să fi fost aproabată, în prealabil și în scris de către ambele părți.",
+                        "Părțile agreează de asemeneaca orice anunț sau communicare publică, solicitată de regelemntările în vigoare, va fi făcută după notificarea în prealabil a celeilalte părți."],
 
-      "corporatereps_ro" : ["corporate"]
+    "existencereps_ro" : ["Părțile sunt persoane juridice înființate și funcționând conform legilor din jurisidicția în care au fost înființate."],
+
+    "noconflictreps_ro" : ["Nicio parte nu este subiect al vreunei restricții sau obligații ce poate afecta, în opinia rezonabilă a părții, executarea de către parte a obligațiilor sale rezultate din prezentul contract."],
+
+    "authorityreps_ro" : ["Parțile au autoritatea și capacitatea de a încheia prezentul contract."],
+
+    "enforceabilityreps_ro" : ["Acest contract a fost închieat în mod valid de către Parte, și constituie o obligație validă de care Partea este ținută, putând fi pusă în execuatre împotriva acesteai conform termenilor săi."]
 }

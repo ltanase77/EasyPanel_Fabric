@@ -21,7 +21,7 @@ $(document).ready(function () {
             view.showAlert(controller.getLanguage());
             $(".lang button").on("click", function() { view.showOptions($(this).text()); } );
             $("select").on("change", function() { view.showButtons($(this).val()); } );
-            $("section button").on("click", function() { controller.insertClause($(this).attr("id")); } );
+            $("section button").on("click", function() { controller.insertClause($(this).attr("data-clause")); } );
         },
 
         getLanguage: function() {

@@ -79,6 +79,9 @@
                             <option value="arbitration">Arbitration</option>
                             <option value="confidentiality">Confidentiality</option>
                             <option value="court">Court Jurisdiction</option>
+                            <option value="indemnification">Indemnification</option>
+                            <option value="ip">Intellectual Property</option>
+                            <option value="liability">Limitation of Liability</option>
                             <option value="miscellanous">Miscellanous</option>
                             <option value="representations">Representations</option>
                         </select>
@@ -87,7 +90,7 @@
                     <div class="buttons">
                         <!-- Arbitration clauses -->
                         <section class="ms-Grid" data-clause-type="arbitration">
-                            <p>Use one of these arbitration clauses:</p>
+                            <p>Choose one of these arbitration clauses:</p>
                             <div class="ms-Grid-row">
                                 <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="icc_standard_en">ICC (standard)</button>
                                 <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="icc_one_en">ICC (one arbitrator)</button>
@@ -96,7 +99,7 @@
                         </section>
                         <!-- Court jurisdiction clauses -->
                         <section class="ms-Grid" data-clause-type="court">
-                            <p>Use one of these court juridsiction clauses:</p>
+                            <p>Choose one of these court juridsiction clauses:</p>
                             <div class="ms-Grid-row">
                                 <button class="ms-Grid-col ms-u-sm6 ms-u-md4 ms-u-lg4 ms-Button ms-Button-small" data-clause="exclusive_en">Exclusive Juridsiction</button>
                                 <button class="ms-Grid-col ms-u-sm6 ms-u-md4 ms-u-lg4 ms-Button ms-Button-small" data-clause="nonexclusive_en">Non-Exclusive Jurisdiction</button>
@@ -104,7 +107,7 @@
                         </section>                                        
                         <!-- Miscellanous clauses --> 
                         <section class="ms-Grid" data-clause-type="miscellanous">
-                            <p>Use different type of miscellanous clauses:</p>
+                            <p>Choose one of these miscellanous clauses:</p>
                             <div class="ms-Grid-row">
                                 <button class="ms-Grid-col ms-u-sm6 ms-u-md4 ms-u-lg3 ms-Button ms-Button-small" data-clause="severability_en">Severability</button>
                                 <button class="ms-Grid-col ms-u-sm6 ms-u-md4 ms-u-lg3 ms-Button ms-Button-small" data-clause="noagency_en">No Agency</button>
@@ -112,12 +115,13 @@
                                 <button class="ms-Grid-col ms-u-sm6 ms-u-md4 ms-u-lg3 ms-Button ms-Button-small" data-clause="thirdparty_en">Third Parties</button>
                                 <button class="ms-Grid-col ms-u-sm6 ms-u-md4 ms-u-lg3 ms-Button ms-Button-small" data-clause="disclosure_en">Public Disclosure</button>
                                 <button class="ms-Grid-col ms-u-sm6 ms-u-md4 ms-u-lg3 ms-Button ms-Button-small" data-clause="govlaw_en">Governing Law</button>
+                                <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg3 ms-Button ms-Button-small" data-clause="interpretation_en">Interpretation</button>
                             </div>
                         </section>
                         <!-- Representations clauses -->
                         <section class="ms-Grid" data-clause-type="representations">
                             <!-- <h4>Representation</h4> -->
-                            <p>Use one of these representation clauses:</p>
+                            <p>Choose one of these representation clauses:</p>
                             <div class="ms-Grid-row">
                                 <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="existencereps_en">Existence</button>
                                 <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="noconflictreps_en">No Conflict</button>
@@ -129,10 +133,25 @@
                         </section>
                         <!-- Confidentiality clauses -->
                         <section class="ms-Grid" data-clause-type="confidentiality">
-                            <p>Use one of these confidentiality clauses:</p>
+                            <p>Choose one of these confidentiality clauses:</p>
                             <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="confidentiality_brief_en">Confidentiality (brief)</button>
                             <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="confidentiality_extended_en">Confidentiality (extended)</button>
                             <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="confidentiality_exhaustive_en">Confidentiality (exhaustive)</button>
+                        </section>
+                        <!-- Indemnification clauses -->
+                        <section class="ms-Grid" data-clause-type="indemnification">
+                            <p>Choose one of these indemnification clauses</p>
+                            <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="indemnification_en">Indemnification (brief)</button>
+                        </section>
+                        <!-- Intelectual property clauses -->
+                        <section class="ms-Grid" data-clause-type="ip">
+                            <p>Choose one of these intellectual property clauses</p>
+                            <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="ip_en">Intellectual Property</button>
+                        </section>
+                        <!-- Limitation of liability clauses -->
+                        <section class="ms-Grid" data-clause-type="liability">
+                            <p>Choose one of these limitation of liability clauses</p>
+                            <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="limitation_en">Limitation of Liability</button>
                         </section>
                     </div>
                 </div>
@@ -146,6 +165,9 @@
                             <option value="arbitration">Arbitraj</option>
                             <option value="court">Alegerea instantei</option>
                             <option value="confidentiality">Confidentialitate</option>
+                            <option value="indemnification">Despagubiri</option>
+                            <option value="ip">Proprietate Intelectuala</option>
+                            <option value="liability">Limitarea Raspunderii</option>
                             <option value="miscellanous">Diverse</option>
                             <option value="representations">Declaratii</option>
                         </select>
@@ -205,6 +227,24 @@
                             <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="confidentiality_brief_ro">Confidentialitate (scurta)</button>
                             <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="confidentiality_extended_ro">Confidentialitate (extinsa)</button>
                             <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="confidentiality_exhaustive_ro">Confidentialitate (exhaustiva)</button>
+                        </section>
+
+                        <!-- ### Clauze privind despagubiri ### -->
+                        <section class="ms-Grid" data-clause-type="indemnification">
+                            <p>Choose one of these indemnification clauses</p>
+                            <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="indemnification_ro">Despagubiri</button>
+                        </section>
+
+                        <!-- ### Clauze privind proprietatea intelectuala ### -->
+                        <section class="ms-Grid" data-clause-type="ip">
+                            <p>Choose one of these intellectual property clauses</p>
+                            <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="ip_ro">Proprietate Intelectuala</button>
+                        </section>
+
+                        <!-- ### Clauze privind limitarea raspunderii ### -->
+                        <section class="ms-Grid" data-clause-type="liability">
+                            <p>Choose one of these limitation of liability clauses</p>
+                            <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="limitation_ro">Limitarea raspunderii</button>
                         </section>
                     </div>
                 </div>

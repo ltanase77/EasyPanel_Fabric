@@ -33,9 +33,9 @@ $(document).ready(function () {
                 .then(function(response) { 
                    //var articles = JSON.parse(response);
                    var articles = response[clause];
-                   articles.forEach(function(elem) {
+                   articles.forEach(function (elem) {
                        console.log(elem);
-                    });
+                   });
                 })
                 .catch(function(error) {
                     var dialog = document.querySelector(".ms-Dialog");

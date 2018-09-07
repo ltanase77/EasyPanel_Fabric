@@ -35,6 +35,22 @@
 
   "existencereps_en" : ["The parties are corporations incorporated and existing under the laws of the jurisdictions of their respective incorporation"],
 
+  "force_brief_en": ["If a Party is or will be prevented from performing any of its obligations under the Agreement by Force Majeure, then it shall give notice to the other Party of the event or circumstances constituting the Force Majeure and shall specify the obligations, the performance of which is or will be prevented.",
+                      "The notice shall be given within 5 days after the party became aware, or should have become aware, of the relevant event or circumstance constituting Force Majeure.",
+                      "The party shall, having given notice, be excused performance of such obligations for so long as such Force Majeure prevents it from performing them."],
+
+  "force_extended_en": ["Notice of Force Majeure",
+                        "If a Party is or will be prevented from performing any of its obligations under the Agreement by Force Majeure, then it shall give notice to the other Party of the event or circumstances constituting the Force Majeure and shall specify the obligations, the performance of which is or will be prevented.",
+                        "The notice shall be given within 5 days after the party became aware, or should have become aware, of the relevant event or circumstance constituting Force Majeure.",
+                        "The Party shall, having given notice, be excused performance of such obligations for so long as such Force Majeure prevents it from performing them.",
+                        "Duty to Minimize Delay",
+                        "Each Party shall at all times use all reasonable endeavours to minimize any delay in the performance of the Agreement as a result of Force Majeure.",
+                        "A Party shall give notice to the other party when it ceases to be affected by the Force Majeure.",
+                        "Optional Termination",
+                        "If the execution of the Agreement is substantially prevented for a continuous period of […] days, or for multiple periods which total more than […] days by reason of Force Majeure of which notice has been given under this Clause, then the Party not affected by Force Majeure may give to the Party affected by Force Majeure a notice of termination of the Agreement.",
+                        "In this event, the termination shall take effect 7 days after the notice is given.",
+                        "Upon such termination, the Parties shall determine the amount related to any unsettled performance of the Agreement."],
+
   "icc_standard_en" : ["All disputes arising out of or in connection with the present contract shall be finally settled under the Rules of Arbitration of the International Chamber of Commerce by one or more arbitrators appointed in accordance with the said Rules."],
 
   "icc_one_en" : ["All disputes arising out of or in connection with the present contract shall be finally settled under the Rules of Arbitration of the International Chamber of Commerce by one arbitrator appointed in accordance with the said Rules.",
@@ -79,6 +95,8 @@
 
   "severability_en" : ["Any term or provision of this Agreement that is invalid or unenforceable in any situation, shall not affect the validity or enforceability of the remaining terms and provisions hereof or the validity or enforceability of the offending term or provision in any other situation or in any other jurisdiction."],
 
+  "specific_jurisdiction_en": ["To the extent permitted by the law, the Parties agree that any disputes arising under or in connection this Agreement shall be subject to the territorial jurisdiction of the courts from [...]"],
+
   "thirdparty_en" : ["The Parties hereby confirm that, notwithstanding any other provision of this Agreement, this Agreement shall not and shall not purport to confer on any third party any right to enforce any term of this Agreement."],
 
   "waiver_en" : ["Any party to this Agreement may, by written notice sent to the other party hereto, waive any of its rights under this Agreement.",
@@ -120,6 +138,10 @@
 
   "existencereps_ro" : ["Părțile sunt persoane juridice înființate și funcționând conform legilor din jurisidicția în care au fost înființate."],
 
+  "force_brief_ro": [],
+
+  "force_extended_ro" : [],
+
   "icc_standard_ro" : ["Toate disputele născute în legătură cu prezentul contract vor fi în mod definitiv soluționate în conformitate cu Regulile de Arbitraj ale Camerei Internaționale de Comerț de către unul sau mai mulți arbitri numiți în baza acestor reguli."],
 
   "icc_unu_ro" : ["Toate disputele născute în legătură cu prezentul contract vor fi soluționate în conformitate cu Regulile de Arbitraj ale Camerei Internaționale de Comerț de către un singur arbitru numit în baza acestor reguli.",
@@ -144,6 +166,8 @@
   "nonexclusive_ro" : ["Părțile convin că orice litigiu, acțiune sau procedură în legătură cu prezentul contract va fi de competența neexclusivă a instanțelor din [...]."],
 
   "severability_ro" : ["Fiecare prevedere a prezentului Contract este separată de toate celelalte, în ciuda felului în care sunt legate gramatical sau altfel, iar dacă în caz de orice judecată și/sau hotărâre a unui organ jurisdicțional, orice prevedere, clauză sau paragraf din prezentul Contract este considerată nevalidă, nescrisă sau neexecutorie din orice motiv, prevederile, paragrafele sau clauzele rămase, vor continua sa fie în vigoare și să aibă efect deplin între părți."],
+
+  "specific_jurisdiction_ro": ["În limitele prevăzute de lege, Părțile convin ca orice litigiu rezultat din sau în legătură cu prezentul Contract să fie de competența teritorială a instanțelor din [...]"],
 
   "thirdparty_ro" : ["Părțile convin, indiferent de ce se prevede prin celelalte clauze, că prezentul Contract nu va și nu intenționează să confere vreun drept unei terțe părți."],
 

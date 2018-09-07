@@ -79,6 +79,7 @@
                             <option value="arbitration">Arbitration</option>
                             <option value="confidentiality">Confidentiality</option>
                             <option value="court">Court Jurisdiction</option>
+                            <option value="force">Force Majeure</option>
                             <option value="indemnification">Indemnification</option>
                             <option value="ip">Intellectual Property</option>
                             <option value="liability">Limitation of Liability</option>
@@ -104,6 +105,7 @@
                             <div class="ms-Grid-row">
                                 <button class="ms-Grid-col ms-u-sm6 ms-u-md4 ms-u-lg4 ms-Button ms-Button-small" data-clause="exclusive_en">Exclusive Juridsiction</button>
                                 <button class="ms-Grid-col ms-u-sm6 ms-u-md4 ms-u-lg4 ms-Button ms-Button-small" data-clause="nonexclusive_en">Non-Exclusive Jurisdiction</button>
+                                <button class="ms-Grid-col ms-u-sm6 ms-u-md4 ms-u-lg4 ms-Button ms-Button-small" data-clause="specific_jurisdiction_en">Specific Court Jurisdiction</button>
                             </div>
                         </section>                                        
                         <!-- Miscellanous clauses --> 
@@ -154,6 +156,12 @@
                             <p>Choose one of these limitation of liability clauses</p>
                             <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="limitation_en">Limitation of Liability</button>
                         </section>
+                        <!-- Force Majeure clauses -->
+                        <section class="ms-Grid" data-clause-type="force">
+                            <p>Choose one of these force majeure clauses</p>
+                            <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="force_brief_en">Force Majeure (brief)</button>
+                            <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="force_extended_en">Force Majeure (extended)</button>
+                        </section>
                     </div>
                 </div>
 
@@ -162,15 +170,16 @@
                     <div class="options_ro ms-Dropdown" tabindex="0">
                         <i class="ms-Dropdown-caretDown ms-Icon ms-Icon--ChevronDown"></i>
                         <select name="clauses_ro" id="choose_ro" class="ms-Dropdown-select">
-                            <option value="">Alegeti Clauza</option>
+                            <option value="">Alegeți Clauza</option>
                             <option value="arbitration">Arbitraj</option>
-                            <option value="court">Alegerea instantei</option>
-                            <option value="confidentiality">Confidentialitate</option>
-                            <option value="indemnification">Despagubiri</option>
+                            <option value="court">Alegerea instanței</option>
+                            <option value="confidentiality">Confidențialitate</option>
+                            <option value="indemnification">Despăgubiri</option>
+                            <option value="force">Forța Majoră</option>
                             <option value="ip">Proprietate Intelectuala</option>
-                            <option value="liability">Limitarea Raspunderii</option>
+                            <option value="liability">Limitarea Răspunderii</option>
                             <option value="miscellanous">Diverse</option>
-                            <option value="representations">Declaratii</option>
+                            <option value="representations">Declarații</option>
                         </select>
                     </div>
                         
@@ -192,8 +201,9 @@
                         <section class="ms-Grid" data-clause-type="court">
                             <p>Folositi una dintre urmatoarele clauze privind alegere jurisdictiei:</p>
                             <div class="ms-Grid-row">
-                                <button class="ms-Grid-col ms-u-sm6 ms-u-md4 ms-u-lg4 ms-Button ms-Button-small" data-clause="exclusive_ro">Jurisdictie Exclusiva</button>
-                                <button class="ms-Grid-col ms-u-sm6 ms-u-md4 ms-u-lg4 ms-Button ms-Button-small" data-clause="nonexclusive_ro">Jurisdictie Neexclusiva</button>
+                                <button class="ms-Grid-col ms-u-sm6 ms-u-md4 ms-u-lg4 ms-Button ms-Button-small" data-clause="exclusive_ro">Jurisdicție Exclusiva</button>
+                                <button class="ms-Grid-col ms-u-sm6 ms-u-md4 ms-u-lg4 ms-Button ms-Button-small" data-clause="nonexclusive_ro">Jurisdicție Neexclusiva</button>
+                                <button class="ms-Grid-col ms-u-sm6 ms-u-md4 ms-u-lg4 ms-Button ms-Button-small" data-clause="specific_jurisdiction_ro">Jurisdicție Teritorială</button>
                             </div>
                         </section>
                         
@@ -247,6 +257,12 @@
                         <section class="ms-Grid" data-clause-type="liability">
                             <p>Choose one of these limitation of liability clauses</p>
                             <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="limitation_ro">Limitarea raspunderii</button>
+                        </section>
+                        <!-- ### Clauze privind forta majora ### -->
+                        <section class="ms-Grid" data-clause-type="force">
+                            <p>Choose one of these limitation of liability clauses</p>
+                            <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="force_brief_ro">Forta Major (scurta)</button>
+                            <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="force_extended_ro">Forta Majora (extinsa)</button>
                         </section>
                     </div>
                 </div>

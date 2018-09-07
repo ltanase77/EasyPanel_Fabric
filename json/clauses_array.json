@@ -3,17 +3,33 @@
 
   "confidentiality_brief_en" : ["For the purpose of this clause the terms herein specified possess the following meanings:",
                                 "'Disclosing Party' means the party disclosing Confidential Information.",
-                                "'Receiving Party' means the party receiving Confidential Information to the Receiving Party",
+                                "'Receiving Party' means the party receiving Confidential Information from the Disclosing Party",
                                 "'Confidential Information' means any information or data, or both, communicated by or on behalf of the Disclosing Party to the Receiving Party, including but not limited to, any kind of business, commercial or technical information and data in connection with the purpose of the Agreement, except for such information that is demonstrably non-confidential in nature.",
                                 "The Receiving Party acknowledges that, in the course of its activity under this Agreement, it will or may have access to and become informed of confidential and proprietary information of the Disclosing Party and further acknowledges that all such Confidential Information is and will remain at all times the property of the Disclosing Party.",
                                 "Confidential Information shall not include any information that was part of the public domain at the time of disclosure to the Receiving Party or becomes part of the public domain, otherwise than as a result of a direct or indirect disclosure of the Receiving Party in breach of this Agreement.",
                                 "The Receiving Party shall use the Confidential Information  only for the purposes of carrying out his duties under the Agreement and not for any other purposes.",
                                 "During the continuance of this Agreement and after its termination, the Receiving Party covenants and agrees to hold in strictest confidence and to exercise the utmost diligence to maintain the confidentiality of any Confidential Information." ],
+  
+  "confidentiality_extended_en" : [ "Property of Confidential Information",
+                                "The Receiving Party acknowledges that, in the course of its activity, it will or may have access to and become informed of confidential and proprietary informatDisclosing Party   and the Receiving Party further acknowledges that all such Confidential Information is and will remain at all times the property of the Disclosing Party.",
+                                "Confidential Information shall not include any information that was part of the public domain at the time of disclosure to the Receiving Party or becomes part of the public domain, otherwise than as a result of a direct or indirect disclosure by the Receiving Party in breach of this Agreement.",
+                                "Use of Confidential Information",
+                                "The Receiving Party shall use Confidential Information only for the purposes of carrying out his duties under the Agreement and not for any other purposes. During the continuance of this Agreement and after its termination, the Receiving Party covenants and agrees to hold in strictest confidence and to exercise the utmost diligence to maintain the confidentiality of any Confidential Information.",
+                                "Disclosure of Confidential Information",
+                                "The Receiving Party shall prevent the publication or disclosure of the Confidential Information to any third party other than where such disclosure is required by any governmental or regulatory authority, order of court, or otherwise required under any applicable law, and shall not, during the continuance of this Agreement and after its termination, without the prior written consent of the Disclosing Party:",
+                                "        a) use for the benefit or purposes of the Receiving Party or any other third party, any Confidential Information or ",
+                                "        b) directly or indirectly reveal, furnish, divulge or otherwise make known or available to any third party, any Confidential Information.",
+                                "In the event that the Receiving Party is requested in any proceeding to disclose any Confidential Information, the Receiving Party will give the Disclosing Party prompt notice of such request so that it may seek an appropriate protective order and/or shall disclose only such portion of the Confidential Information as is required. The Facility Manger shall use his best efforts to obtain assurances that confidential treatment will be accorded to such Confidential Information.",
+                                "The Receiving Party acknowledges and agrees that its obligations under this Section are reasonable and necessary for the protection of the Disclosing Party’s business interests and are in addition to any other obligations of confidentiality that the Receiving Party may have to the Disclosing Party under other legal provisions or principles. The Receiving Party further acknowledges that irreparable injury will result of the Disclosing Party if the Receiving Party breaches any of the terms of this Section, and that in the event of an actual or threatened breach of any such obligation, damages will not be an adequate remedy for the Disclosing Party. Accordingly, the Receiving Party agrees that in the event of any actual or threatened breach by the Receiving Party of any terms under this Section, the Disclosing Party will be entitled to immediate injunctive and specific performance, without the necessity of demonstrating damage. Nothing in this provision prohibits the Disclosing Party from pursuing any other remedies for such breach or threatened breach, including the recovery of damages.",
+  								"Return of Confidential Information",
+  								"The Disclosing Party may request, within ten (10) days as of termination of this Agreement, and the Receiving Party shall promptly deliver to the Disclosing Party all the documents (either in writing or electronic) and all copies thereof containing Confidential Information and all property associated therewith as it may possess or have under its control at the time. In case the Disclosing Party fails to request the above documents within the term established above, the Receiving Party shall destroy all such documents. For the avoidance of doubt, it is hereby declared that the property in all such documents shall at all times be vested with the Disclosing Party."],
+  
+  "ccir_en": ["Any dispute under or related to this agreement, including with respect to the execution, performance or termination hereof, shall be settled by means of arbitration, by the Court of International Commercial Arbitration attached to the Chamber of Commerce and Industry of Romania, in compliance with the Rules of arbitration procedure of the Court of International Commercial Arbitration, in force, published in the Official Monitor of Romania, Part. I."],
 
   "disclosure_en" : ["Each party to this Agreement hereby agrees with the other party hereto that, except as may be required to comply with applicable laws, no press release or similar public announcement or communication will be made or caused to be made concerning the execution or performance of this Agreement unless specifically approved in advance and in writing by the parties hereto.",
                        "The parties hereto further agree that any public announcement required by applicable Laws shall only be made after reasonable notice to the other party."],
 
-  "enforceabilityreps_en" : ["This Agreement has been validly executed and delivered by the Party, and constitutes a valid and binding obligation of the Party enforceable against the Party in accordance with its terms."],
+  "enforceabilityreps_en" : ["This Agreement has been validly executed and delivered by the Party and constitutes a valid and binding obligation of the Party enforceable against the Party in accordance with its terms."],
 
   "exclusive_en" : ["With respect to any suit, action or proceedings relating to this agreement each party irrevocably submits to the exclusive jurisdiction of the [...] courts."],
 
@@ -28,18 +44,24 @@
   "icc_three_en" : ["All disputes arising out of or in connection with the present contract shall be finally settled under the Rules of Arbitration of the International Chamber of Commerce by three arbitrators appointed in accordance with the said Rules.",
                     "The place of arbitration will be [...] and the language of arbitration will be [...].",
                     "The arbitral award shall be final and binding."],
+  
+  "indemnification_en" : ["The Provider shall indemnify and hold harmless the Beneficiary, the Beneficiary's personnel, and their respective agents, against and from all claims, damages, losses and expenses (including legal fees and expenses) in respect of bodily injury, sickness, disease or death, of any person whatsoever or damage to or loss of any property, real or personal, arising out of or in the course of or by reason of the performance of the Services and the remedying of any defects, and to the extent that such damage or loss is attributable to any negligence, wilful act or breach of the Agreement by the Provider, the Provider’s personnel, their respective agents, or anyone directly or indirectly employed by any of them."],
 
-  "interpretation_en" : ["In the present Agreement, except where the context requies otherwise: ",
-                         "a) words indicating one gender includesall genders;",
+  "interpretation_en" : ["In the present Agreement, except where the context requires otherwise: ",
+                         "a) words indicating one gender includes all genders;",
                          "b) words indicating the singular also include the plural and words indicating the plural also include the singular",
                          "c) provisions including the word 'agree' 'agreed' or 'agreement' require the agreement ot be recorded in writing, and",
                          "d) 'written' or 'in writing' means hand-written, type-written, printed or electronically made, and resulting in a permanent record"],
 
-  "ip_en": ["Copyright and other Intelectual property's rights over any Invention or Work shall remain vested at all time with the Provider. Subject to the  having paid all sums due to the Provider under this Agreement, the Provider hereby grants to the Beneficiary, an irrevocably free and non-exclusive licence to copy and use the Inventions and/or Works and to reproduce any of them for any purposes whatsoever relating to the Services.",
+  "ip_en": ["Copyright and other intellectual property's rights over any invention or work shall remain vested at all time with the Provider. Subject to having paid all sums due to the Provider under this Agreement, the Provider hereby grants to the Beneficiary, an irrevocably free and non-exclusive license to copy and use the inventions and/or works and to reproduce any of them for any purposes whatsoever relating to the scope of this Agreement.",
     "The Provider hereby undertakes to procure from the any third-party, the grant of necessary licenses in favour of the Beneficiary to give effect to this Section. Such licenses shall be capable of sub-licence and transfer by the Beneficiary.",
-    "The Provider shall not be liable for any use of the Inventins or Works for any purposes other than those for which they were prepared and/or provided for by or on behalf of the Provider."],
+    "The Provider shall not be liable for any use of the inventions or works for any purposes other than those for which they were prepared and/or provided for by or on behalf of the Provider."],
 
   "govlaw_en" : ["This agreement shall be governed, construed and enforced in accordance with the laws of [...]."],
+
+  "limitation_en" : ["Neither Party shall be liable to the other Party for loss of use of any works, or services, loss of profits, loss of any contractor for any indirect or consequential loss or damage which may be suffered by the other Party in connection with the Agreement.",
+  					 "The total liability of one Party to the other Party, under or in connection with the Agreement shall not exceed the amount of […].",
+  					 "The limitation of liability shall not apply in any case of fraud, deliberate default or reckless misconduct by the defaulting Party."],
 
   "noconflictreps_en" : ["Neither party is under any restriction or obligation that the party could reasonably expect might affect the party's performance of its obligations under this agreement."],
 
@@ -49,7 +71,7 @@
                        "c) any judgment, Order, or decree of any Governmental Authority to which it is subject, or",
                        "d) any agreement to which it is a party or by which it is bound."],
 
-  "nodisputereps_en" : ["Except as disclosed in the parties's Disclosure Letters, there are no Legal Proceedings pending, threatened, or foreseeable against either party, which would affect that party’s ability to complete its obligations under this agreement."],
+  "nodisputereps_en" : ["Except as disclosed in the parties' Disclosure Letters, there are no legal proceedings pending, threatened, or foreseeable against either party, which would affect that party’s ability to complete its obligations under this agreement."],
 
   "noagency_en" : ["Except as otherwise provided in the Agreement, nothing from this Agreement shall be considered or construed as creating an association, partnership or joint venture between the Parties or entitling one party to act as agent or proxy on behalf of the other party."],
 
@@ -62,7 +84,7 @@
   "waiver_en" : ["Any party to this Agreement may, by written notice sent to the other party hereto, waive any of its rights under this Agreement.",
                  "The waiver by any party hereto of a breach of any provision of this Agreement shall not operate or be construed as a waiver of any subsequent breach."],
 
-  "authorityreps_ro" : ["Parțile au autoritatea și capacitatea de a încheia prezentul contract."],
+  "authorityreps_ro" : ["Părțile declară că au autoritatea și capacitatea de a încheia prezentul contract."],
 
   "confidentiality_brief_ro": ["În scopul prezentei clauze, termeni menționați mai jos, vor avea următoarea semnificație:",
                                "'Deținător' înseamnă partea care deține și dezvăluie Informațiile Confidențiale către Recipient",
@@ -71,11 +93,28 @@
                                "Destinatarul recunoaște că, în cursul activității sale în baza Contractului, va avea sau poate avea acces sau poate fi informat despre Informații Confidențiale aflate în proprietatea Deținătorului, și recunoaște de asemenea că astfel de Informații Confidențiale sunt și vor rămâne proprietatea Deținătorului.",
                                "Destinatarul va folosi Informațiile Confidențiale, doar în scopul îndeplinirii obligațiilor sale din prezentul Contract.",
                                "În timpul derulării prezentului Contract și după încetarea acestuia Destinatarul se obligă să mențină confidențialitatea strictă oricărei Informații Confidențiale, depunând toate diligențele în acest sens."],
+  
+  "confidentiality_extended_ro": ["Proprietatea Informațiilor Confidențiale",
+  								 "Destinatarul acceptă că, în timpul activității sale conform prezentului Contract, va avea acces și va lua la cunoștință de Informații Confidențiale ale Deținătorului și Destinatarul agreează că astfel de Informații Confidențiale sunt și vor rămâne întotdeauna proprietatea Deținătorului.",
+  								 "Informațiile Confidențiale nu includ acele informații care erau parte din domeniul public la momentul dezvăluirii lor față de Destinatar, sau devin parte din domeniul public în alt mod decât prin dezvăluirea lor directă sau indirectă de către Deținător, ca urmare a unei dezvăluiri directe sau indirecte ce are loc cu încălcarea obligațiilor prevăzute în prezentul Contract.",
+  								 "Folosirea Informațiilor Confidențiale",
+  								 "Destinatarul va folosi Informațiile Confidențiale doar în scopul îndeplinirii îndatoririlor și obligațiilor sale rezultate din  prezentul Contract. Pe toată perioada derulării prezentului Contract și după încetarea acestuia, Destinatarul se obligă să păstreze confidențialitatea oricărei Informații Confidențiale, cu grija unui bun profesionist.",
+  								 "Dezvăluirea Informațiilor Confidențialitate",
+  								 "Destinatarul se va asigura că ia toate măsurile necesare pentru a preveni publicarea sau dezvăluirea unor Informații Confidențiale către o terță parte (ce nu este îndreptățită în acest sens) cu excepția cazului în care o asemenea dezvăluire este obligatorie conform legii, la solicitarea unei autorități guvernamentale sau pe baza deciziei unei  instanțe de judecată, și, pe durata derulării Contractului și după încetarea acestuia,  fără acordul  scris al, exprimat în prealabil al Deținătorului nu va:",
+  								 "      a) nu va folosi în scopul sau în beneficiul personal sau al unei terțe părți, orice Informație Confidențială; sau",
+  								 "      b) nu va dezvălui, furniza, face cunoscut sau pune la dispoziție, în orice mod către o terță parte, nicio Informație Confidențială.",
+  								 "În cazul în care Destinatarul este solicitat, în cadrul oricărei proceduri, să dezvăluie Informații Confidențiale, Destinatarul va aduce imediat la cunoștința Deținătorului, această solicitare, astfel încât Deținătorul  să poată luat toate măsurile legale pentru protejarea informațiilor sale și va dezvălui doar acele Informații Confidențiale ce sunt solicitate a fi dezvăluite.",
+  								 "Destinatarul recunoaște și acceptă că obligațiile sale din prezenta Secțiune sunt rezonabile și sunt necesare pentru protecția intereselor de afaceri ale Deținătorului și sunt suplimentare oricărei obligații de confidențialitate pe care Destinatarul o poate avea față de Deținător în virtutea dispozițiilor legale sau a principiilor de drept. Destinatarul va face toate eforturile posibile să se asigure că Informațiile Confidențialitate dezvăluite vor beneficia de același tratament de confidențialitate.",
+  								 "Destinatarul recunoaște de asemenea, că prejudicii ireparabile pot rezulta pentru Deținător dacă Destinatarul încalcă oricare din obligațiile sale din prezenta Secțiune, și în cazul unei asemenea încălcări, obținerea unor daune materiale nu reprezintă un remediu adecvat pentru Deținător. În consecință, Destinatarul este de acord ca în cazul unei încălcări sau a unei încălcări iminente a obligațiilor sale din prezenta Secțiune, Deținătorul este îndreptățită să solicite îndeplinirea în natură a obligațiilor și măsuri de împiedicare/evitare a producerii încălcării, fără obligația de a dovedi vreun prejudiciu. Nimic din această clauză nu va restricționa Deținătorul să apeleze la alte remedii aferente acestor încălcări, inclusiv solicitarea de plata a daunelor suferite.",
+  								 "Returnarea Informațiilor Confidențiale",
+  								 "Deținătorul poate solicita, în termen de zece (10) zile de la încetarea Contractului, și Destinatarul va furniza Deținătorului în mod prompt și imediat toate documentele (în format scriptic sau electronic) și copiile acestora ce conțin Informații Confidențiale și orice alte materiale adiacente care se află în posesia sau sub controlul său la acel moment, pe care acesta le deține la acel moment. În situația în care Deținătorul nu solicită predarea documentelor anterior menționate, Destinatarul va distruge toate aceste documente. Pentru a evita orice neclaritate, părțile convin că dreptul de proprietate asupra unor astfel de documente aparține întotdeauna Deținătorului."],
+  
+  "ccir_ro" : ["Orice litigiu decurgând din sau în legătură cu acest contract, inclusiv referitor la încheierea, executarea ori desființarea lui, se va soluționa prin arbitrajul Curții de Arbitraj Comercial International de pe lângă Camera de Comerț și Industrie a României în conformitate cu Regulile de procedură arbitrală ale Curții de Arbitraj Comercial International, în vigoare, publicate în Monitorul Oficial al României, Partea I."],
 
-  "disclosure_ro" : ["Părțile sunt de acord ca, exceptând cazul când acest lucru este impus de reglemntările în vigoare, nicio declarație de presă sau anunț sau comunicare publică nu va fi făcută în legătură cu încheierea sau executarea prezentului Contract, fără să să fi fost aproabată, în prealabil și în scris de către ambele părți.",
-    "Părțile agreează de asemeneaca orice anunț sau communicare publică, solicitată de regelemntările în vigoare, va fi făcută după notificarea în prealabil a celeilalte părți."],
+  "disclosure_ro" : ["Părțile sunt de acord ca, exceptând cazul când acest lucru este impus de reglemntările în vigoare, nicio declarație de presă sau anunț sau comunicare publică nu va fi făcută în legătură cu încheierea sau executarea prezentului Contract, fără să să fi fost aprobată, în prealabil și în scris de către ambele părți.",
+    "Părțile agreează de asemenea că orice anunț sau comunicare publică, solicitată de reglementările în vigoare, va fi făcută după notificarea în prealabil a celeilalte părți."],
 
-  "enforceabilityreps_ro" : ["Acest contract a fost închieat în mod valid de către Parte, și constituie o obligație validă de care Partea este ținută, putând fi pusă în execuatre împotriva acesteai conform termenilor săi."],
+  "enforceabilityreps_ro" : ["Acest contract a fost încheiat în mod valid de către Parte, și constituie o obligație validă de care Partea este ținută, putând fi pusă în execuatre împotriva acesteia conform termenilor săi."],
 
   "exclusive_ro" : ["Părțile convin că orice litigiu, acțiune sau procedură în legătură cu prezentul contract va fi de competența exclusivă a instanțelor din [...]."],
 
@@ -90,10 +129,15 @@
   "icc_trei_ro" : ["Toate disputele născute în legătură cu prezentul contract vor fi soluționate în conformitate cu Regulile de Arbitraj ale Camerei Internaționale de Comerț de către trei arbitri numiți în baza acestor reguli.",
     	           "Locul arbitrajului va fi [...] și limba în care se va desfășura arbitrajul va fi [...].",
     	           "Decizia tribunalului arbitral va fi definitivă și obligatorie."],
-
+  "indemnification_ro": ["Furnizorul va despăgubi și nu va ține răspunzător Beneficiarul, personalul Beneficiarului și reprezentanții acestuia, cu privire la orice pretenții, daune, pierderi sau cheltuieli (inclusiv cheltuieli de judecată) în legătură cu orice vătămare corporală, boală sau deces a oricărei persoane sau în legătură cu orice pierdere sau daună adusă unei proprietăți mobiliare sau imobiliare, ce rezultă în timpul sau ca urmare a prestării Serviciilor și/sau remedierii oricărui defect, și cu condiția ca ceastă daună sau pierdere să poată fi atribuită oricărei neglijențe,  act intenționat sau încălcare Contractului aparținând Furnizorului, personalul Furnizorului, reprezentanții acestuia, sau oricărei alte persoană ce a fost direct sau indirect angajată de către aceștia."],
+  
   "govlaw_ro" : ["Prezentul contract va fi guvernat de legile din [...]."],
 
-  "noagency_ro" : ["Cu excepția cazului în care se prevede altfel în prezentul Contract, nici o clauză a acestuia nu va fi interpretatî în sensul că prezentul Contract dă naștere la o asociere, parteneriat sau societate între Părți sau că îndreptățește una din părți să acționeze ca mandatar sau reprezentant aș celeilalte părți."],
+  "limitation_ro": ["Niciuna dintre Părți nu va fi răspunzătoare față de cealaltă Parte pentru orice pierdere a folosinței, pierdere de profit, pierdere a oricărui contract sau pentru orice pierdere sau daună indirectă sau secundară ce poate fi suferită de cealaltă Parte în legătură cu prezentul Contract.",
+  					"Cuantumul total al răspunderii unei Părți față de cealaltă Parte în legătură cu prezentul Contract nu va depăși [...].",
+  				    "Limitarea de răspundere nu se va aplica în caz de fraudă, neexecutare deliberată sau de gravă neglijență a Părții în culpă."],
+
+  "noagency_ro" : ["Cu excepția cazului în care se prevede altfel în prezentul Contract, nici o clauză a acestuia nu va fi interpretată în sensul că prezentul Contract dă naștere la o asociere, parteneriat sau societate între Părți sau că îndreptățește una din părți să acționeze ca mandatar sau reprezentant aș celeilalte părți."],
 
   "noconflictreps_ro" : ["Nicio parte nu este subiect al vreunei restricții sau obligații ce poate afecta, în opinia rezonabilă a părții, executarea de către parte a obligațiilor sale rezultate din prezentul contract."],
 
@@ -101,7 +145,7 @@
 
   "severability_ro" : ["Fiecare prevedere a prezentului Contract este separată de toate celelalte, în ciuda felului în care sunt legate gramatical sau altfel, iar dacă în caz de orice judecată și/sau hotărâre a unui organ jurisdicțional, orice prevedere, clauză sau paragraf din prezentul Contract este considerată nevalidă, nescrisă sau neexecutorie din orice motiv, prevederile, paragrafele sau clauzele rămase, vor continua sa fie în vigoare și să aibă efect deplin între părți."],
 
-  "thirdparty_ro" : ["Părțile convin, indiferent de ce se prevede prin celelate clauze, că prezentul Contract nu va și nu intenționează să confere vreun drept unei terțe părți."],
+  "thirdparty_ro" : ["Părțile convin, indiferent de ce se prevede prin celelalte clauze, că prezentul Contract nu va și nu intenționează să confere vreun drept unei terțe părți."],
 
   "waiver_ro" : ["Oricare dintre Părțile prezentului Contract poate, prin transmiterea unei notificări scrise către cealaltă parte, să renunțe la drepturile sale născute în baza Contractului.",
                  "Renunțarea de către o parte cu privire la dreptul de a acționa în ceea ce privește o încălcarea de către cealaltă parte a oricărei prevederi din Contract nu va opera și nu va fi interpretată ca o renunțare la o încălcare ulterioară."]

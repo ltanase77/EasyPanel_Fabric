@@ -30,18 +30,19 @@ $(document).ready(function () {
 
         insertClause: function(clause) {
             model.getData()
-                .then(function(response) { 
+                .then(function(response) {
                    //var articles = JSON.parse(response);
                    var articles = response[clause];
+                   //console.log(articles);
                    articles.forEach(function (elem) {
                        console.log(elem);
                    });
                 })
-                .catch(function(error) {
+                .catch(function(jqXHR, textStatus, errorThrown) {
                     var dialog = document.querySelector(".ms-Dialog");
                     var button = document.querySelector(".Dialog-button");
                     $(".ms-Dialog-title").html("<p>An Error has ocurred</p>");
-                    $(".ms-Dialog-content").html("<p>We were unable to retrieve the clause!</p><p>We aplogize for any inconvenience!</p>");
+                    $(".ms-Dialog-content").html("<p>We were unable to retrieve the clause!</p><p>We aplogize for any inconvenience!</p>" + textStatus + errorThrown);
                     var dialogComponent = new fabric['Dialog'](dialog);
                     dialogComponent.open();
                     function closeDialog(dialog) {

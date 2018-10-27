@@ -93,6 +93,12 @@
 
   "nonexclusive_en" : ["With respect to any suit, action or proceedings relating to this agreement each party irrevocably submits to the non-exclusive jurisdiction of the [...] courts."],
 
+  "notices_en" : ["Any notice or communication that need or may be transmitted in accordance with this Agreement will be valid if is served to the registered office or domicile/residence of the party to whom the communication is made, mentioned in the preamble of this Agreement or to another address that was previously disclosed to the sender, in writing, and if is made by:",
+                    "a) delivering it by hand to the receiving party or its legal representatives;",
+                    "b) registered mail with receipt confirmation;",
+                    "c) courier, that may confirm its receipt;",
+                    "d) court bailiff or similar public authority."],
+
   "severability_en" : ["Any term or provision of this Agreement that is invalid or unenforceable in any situation, shall not affect the validity or enforceability of the remaining terms and provisions hereof or the validity or enforceability of the offending term or provision in any other situation or in any other jurisdiction."],
 
   "specific_jurisdiction_en": ["To the extent permitted by the law, the Parties agree that any disputes arising under or in connection this Agreement shall be subject to the territorial jurisdiction of the courts from [...]"],
@@ -138,9 +144,9 @@
 
   "existencereps_ro" : ["Părțile sunt persoane juridice înființate și funcționând conform legilor din jurisidicția în care au fost înființate."],
 
-  "force_brief_ro": [],
+  "force_brief_ro": ["clauza forta majora scurta"],
 
-  "force_extended_ro" : [],
+  "force_extended_ro" : ["clauza forta majora extinsa"],
 
   "icc_standard_ro" : ["Toate disputele născute în legătură cu prezentul contract vor fi în mod definitiv soluționate în conformitate cu Regulile de Arbitraj ale Camerei Internaționale de Comerț de către unul sau mai mulți arbitri numiți în baza acestor reguli."],
 
@@ -151,8 +157,15 @@
   "icc_trei_ro" : ["Toate disputele născute în legătură cu prezentul contract vor fi soluționate în conformitate cu Regulile de Arbitraj ale Camerei Internaționale de Comerț de către trei arbitri numiți în baza acestor reguli.",
     	           "Locul arbitrajului va fi [...] și limba în care se va desfășura arbitrajul va fi [...].",
     	           "Decizia tribunalului arbitral va fi definitivă și obligatorie."],
+
   "indemnification_ro": ["Furnizorul va despăgubi și nu va ține răspunzător Beneficiarul, personalul Beneficiarului și reprezentanții acestuia, cu privire la orice pretenții, daune, pierderi sau cheltuieli (inclusiv cheltuieli de judecată) în legătură cu orice vătămare corporală, boală sau deces a oricărei persoane sau în legătură cu orice pierdere sau daună adusă unei proprietăți mobiliare sau imobiliare, ce rezultă în timpul sau ca urmare a prestării Serviciilor și/sau remedierii oricărui defect, și cu condiția ca ceastă daună sau pierdere să poată fi atribuită oricărei neglijențe,  act intenționat sau încălcare Contractului aparținând Furnizorului, personalul Furnizorului, reprezentanții acestuia, sau oricărei alte persoană ce a fost direct sau indirect angajată de către aceștia."],
-  
+
+  "interpretation_ro" : ["În prezentul Contract, cu excepția cazului când din context rezultă altfel:",
+    "a) cuvintele ce indică un gen gramatical includ toate celelalte genuri;",
+    "b) cuvintele ce indică singularul includ și pluralul și cuvintele ce indică pluralul indică și singularul;",
+    "c) clauze ce includ cuvintele 'a agrea/a fi de acord' 'agreat/consimțit' or 'acord' necesită ca acest acord să fie exprimat în scris, și",
+    "d) 'scris' sau 'în scris' semnifică scrisul de mână, tipărit, printat sau electronic inscripționat, ce rezultă într-o înregistrare permanentă."],
+
   "govlaw_ro" : ["Prezentul contract va fi guvernat de legile din [...]."],
 
   "limitation_ro": ["Niciuna dintre Părți nu va fi răspunzătoare față de cealaltă Parte pentru orice pierdere a folosinței, pierdere de profit, pierdere a oricărui contract sau pentru orice pierdere sau daună indirectă sau secundară ce poate fi suferită de cealaltă Parte în legătură cu prezentul Contract.",
@@ -164,6 +177,12 @@
   "noconflictreps_ro" : ["Nicio parte nu este subiect al vreunei restricții sau obligații ce poate afecta, în opinia rezonabilă a părții, executarea de către parte a obligațiilor sale rezultate din prezentul contract."],
 
   "nonexclusive_ro" : ["Părțile convin că orice litigiu, acțiune sau procedură în legătură cu prezentul contract va fi de competența neexclusivă a instanțelor din [...]."],
+
+  "notices_ro" : ["Orice notificare sau comunicare ce trebuie sau poate fi  transmisă în baza prezentului Contract va fi considerată validă dacă va fi comunicată la sediul social sau domiciliul/reședința părții față de care are loc comunicarea, menționate în preambulul prezentului Contract sau la o altă adresă ce a fost comunicată anterior expeditorului, în scris, și dacă această comunicare a avut loc prin folosirea următoarelor modalități de comunicare:",
+                  "a) prin înmânarea ei în mod personal destinatarului acesteia sau reprezentanților săi legali;",
+                  "b) prin scrisoare recomandată cu confirmare de primire;",
+                  "c) prin curier, ce poate confirma primirea;",
+                  "d) prin intermediul executorului judecătoresc."],
 
   "severability_ro" : ["Fiecare prevedere a prezentului Contract este separată de toate celelalte, în ciuda felului în care sunt legate gramatical sau altfel, iar dacă în caz de orice judecată și/sau hotărâre a unui organ jurisdicțional, orice prevedere, clauză sau paragraf din prezentul Contract este considerată nevalidă, nescrisă sau neexecutorie din orice motiv, prevederile, paragrafele sau clauzele rămase, vor continua sa fie în vigoare și să aibă efect deplin între părți."],
 

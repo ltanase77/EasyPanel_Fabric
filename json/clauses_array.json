@@ -144,9 +144,20 @@
 
   "existencereps_ro" : ["Părțile sunt persoane juridice înființate și funcționând conform legilor din jurisidicția în care au fost înființate."],
 
-  "force_brief_ro": ["clauza forta majora scurta"],
+  "force_brief_ro": ["Dacă o Parte este sau va fi împiedicată în executarea oricăreia dintre obligațiile sale rezultate din prezentul Contract, de către un eveniment de Forță Majoră, va notifica cealaltă parte despre eveniment și despre circumstanțele ce constituie Forță Majoră, și va menționa obligațiile ce nu mai pot fi îndeplinite ca urmare a Forței Majoră.",
+                     "Notificare va fi transmisă în termen de cel mult 5 zile, de la data la care Partea a luat cunoștință, sau trebuia să ia cunoștință, de evenimentele și circumstanțele relevante ce constituie Forța Majoră.",
+                    "Partea afectată de Forța Majoră, sub condiția transmiterii notificării, va fi eliberată de executarea acelor obligații ce nu pot fi executate din cauza Forței Majore,  atâta timp cât timp Forța Majoră o împiedică să facă acest lucru."],
 
-  "force_extended_ro" : ["clauza forta majora extinsa"],
+  "force_extended_ro" : ["Dacă o Parte este sau va fi împiedicată în executarea oricăreia dintre obligațiile sale rezultate din prezentul Contract, de către un eveniment de Forță Majoră, va notifica cealaltă parte despre eveniment și despre circumstanțele ce constituie Forță Majoră, și va menționa obligațiile ce nu mai pot fi îndeplinite ca urmare a Forței Majoră.",
+                        "Notificare va fi transmisă în termen de cel mult 5 zile, de la data la care Partea a luat cunoștință, sau trebuia să ia cunoștință, de evenimentele și circumstanțele relevante ce constituie Forța Majoră.",
+                        "Partea afectată de Forța Majoră, sub condiția transmiterii notificării, va fi eliberată de executarea acelor obligații ce nu pot fi executate din cauza Forței Majore,  atâta timp cât timp Forța Majoră o împiedică să facă acest lucru.",
+                        "Obligația de a Minimaliza Întârzierile",
+                        "Fiecare Parte va folosi, de fiecare dată, toate mijloacele rezonabile pentru a minimiza orice întârziere în executarea prezentului Contract, cauzată de un eveniment de Forță Majoră.",
+                        "Oricare din Părți va notifica cealaltă Parte atunci când încetează a mai fi afectată de un caz de Forță Majoră.",
+                        "Încetare Opțională",
+                        "Dacă executarea prezentului Contract este împiedicată în mod substanțial pentru o perioadă neîntreruptă de […] zile, sau pentru multiple perioade care totalizează mai mult  de […] zile,  din cauza Forței Majore, ce a fost notificată conform prezentei clauze, atunci partea ce nu este afectată de Forța Majoră poate transmite celeilalte Părți o notificare de încetare a Contractului. ",
+                        "În acest caz, încetarea va produce efecte în termen de 7 zile de la primirea notificării.",
+                        "La încetarea Contractului Părțile vor determina cuantumul aferent oricărei executare ce a Contractului ce nu a fost încă stinsă."],
 
   "icc_standard_ro" : ["Toate disputele născute în legătură cu prezentul contract vor fi în mod definitiv soluționate în conformitate cu Regulile de Arbitraj ale Camerei Internaționale de Comerț de către unul sau mai mulți arbitri numiți în baza acestor reguli."],
 

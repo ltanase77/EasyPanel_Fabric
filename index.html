@@ -155,7 +155,8 @@
                         <section class="ms-Grid" data-clause-type="ip">
                             <p>Choose one of these intellectual property clauses</p>
                             <div class="ms-Grid-row">
-                                <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="ip_en">Intellectual Property</button>
+                                <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="ip_licence_en">Intellectual Property</button>
+                                <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="ip_assignment_en">Intellectual Property</button>
                             </div>
                         </section>
                         <!-- Limitation of liability clauses -->
@@ -268,7 +269,8 @@
                         <section class="ms-Grid" data-clause-type="ip">
                             <p>Alegeți una dintre următoarele clauze de proprietate intelectuală</p>
                             <div class="ms-Grid-row">
-                                <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="ip_ro">Proprietate Intelectuala</button>
+                                <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="ip_licence_ro">Proprietate Intelectuala</button>
+                                <button class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg4 ms-Button ms-Button-small" data-clause="ip_assignment_ro">Proprietate Intelectuala</button>
                             </div>
                         </section>
 
@@ -319,7 +321,7 @@
 
             var DropdownHTMLElements = document.querySelectorAll('.ms-Dropdown');
             for (i = 0; i < DropdownHTMLElements.length; ++i) {
-            var Dropdown = new fabric['Dropdown'](DropdownHTMLElements[i]);
+            	 new fabric['Dropdown'](DropdownHTMLElements[i]);
             }
 
             var MessageBanner = new fabric['MessageBanner'](document.querySelector('.ms-MessageBanner'));

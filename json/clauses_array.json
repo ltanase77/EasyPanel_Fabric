@@ -1,4 +1,8 @@
 {
+  "assignment_en" : ["Neither Party shall assign the whole or any part of the Agreement or any benefit or interest in or under the Agreement.",
+                     "However, either Party may assign the whole or any part of the Agreement, with prior consent of the other Party, at the sole discretion of such other Party.",
+                     "Furthermore a Party may assign, as a security to  a bank or financial institution, its rights to any moneys due, or to become due, under the Agreement."],
+
   "authorityreps_en" : ["The parties have the authority and capacity to enter into this agreement."],
 
   "confidentiality_brief_en" : ["For the purpose of this clause the terms herein specified possess the following meanings:",
@@ -33,7 +37,7 @@
 
   "exclusive_en" : ["With respect to any suit, action or proceedings relating to this agreement each party irrevocably submits to the exclusive jurisdiction of the [...] courts."],
 
-  "existencereps_en" : ["The parties are corporations incorporated and existing under the laws of the jurisdictions of their respective incorporation"],
+  "existencereps_en" : ["The parties are corporations incorporated and existing under the laws of the jurisdictions of their respective state or territory of incorporation"],
 
   "force_brief_en": ["If a Party is or will be prevented from performing any of its obligations under the Agreement by Force Majeure, then it shall give notice to the other Party of the event or circumstances constituting the Force Majeure and shall specify the obligations, the performance of which is or will be prevented.",
                       "The notice shall be given within 5 days after the party became aware, or should have become aware, of the relevant event or circumstance constituting Force Majeure.",
@@ -69,9 +73,11 @@
                          "c) provisions including the word 'agree' 'agreed' or 'agreement' require the agreement ot be recorded in writing, and",
                          "d) 'written' or 'in writing' means hand-written, type-written, printed or electronically made, and resulting in a permanent record"],
 
-  "ip_en": ["Copyright and other intellectual property's rights over any invention or work shall remain vested at all time with the Provider. Subject to having paid all sums due to the Provider under this Agreement, the Provider hereby grants to the Beneficiary, an irrevocably free and non-exclusive license to copy and use the inventions and/or works and to reproduce any of them for any purposes whatsoever relating to the scope of this Agreement.",
+  "ip_licence_en": ["Copyright and other intellectual property's rights over any invention or work shall remain vested at all time with the Provider. Subject to having paid all sums due to the Provider under this Agreement, the Provider hereby grants to the Beneficiary, an irrevocably free and non-exclusive license to copy and use the inventions and/or works and to reproduce any of them for any purposes whatsoever relating to the scope of this Agreement.",
     "The Provider hereby undertakes to procure from the any third-party, the grant of necessary licenses in favour of the Beneficiary to give effect to this Section. Such licenses shall be capable of sub-licence and transfer by the Beneficiary.",
     "The Provider shall not be liable for any use of the inventions or works for any purposes other than those for which they were prepared and/or provided for by or on behalf of the Provider."],
+
+  "ip_assignment_en": ["assignment_en"],
 
   "govlaw_en" : ["This agreement shall be governed, construed and enforced in accordance with the laws of [...]."],
 
@@ -107,6 +113,8 @@
 
   "waiver_en" : ["Any party to this Agreement may, by written notice sent to the other party hereto, waive any of its rights under this Agreement.",
                  "The waiver by any party hereto of a breach of any provision of this Agreement shall not operate or be construed as a waiver of any subsequent breach."],
+
+  "assignment_ro": ["cesiune"],
 
   "authorityreps_ro" : ["Părțile declară că au autoritatea și capacitatea de a încheia prezentul contract."],
 
@@ -176,6 +184,10 @@
     "b) cuvintele ce indică singularul includ și pluralul și cuvintele ce indică pluralul indică și singularul;",
     "c) clauze ce includ cuvintele 'a agrea/a fi de acord' 'agreat/consimțit' or 'acord' necesită ca acest acord să fie exprimat în scris, și",
     "d) 'scris' sau 'în scris' semnifică scrisul de mână, tipărit, printat sau electronic inscripționat, ce rezultă într-o înregistrare permanentă."],
+
+  "ip_licence_ro": [""],
+
+  "ip_assignment_ro": [""],
 
   "govlaw_ro" : ["Prezentul contract va fi guvernat de legile din [...]."],
 

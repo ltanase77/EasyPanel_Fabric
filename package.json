@@ -15,8 +15,8 @@
   "author": "Lucian Tanase",
   "license": "ISC",
   "dependencies": {
-    "browser-sync": "^2.18.13",
-    "gulp": "^3.9.1",
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0"
   }
